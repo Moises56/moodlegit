@@ -1,0 +1,95 @@
+common:
+total 44
+drwxr-xr-x  6 root root 4096 Apr 19 07:05 .
+drwxr-xr-x 13 root root 4096 May  8 15:02 ..
+drwxr-xr-x  2 root root 4096 Apr 19 07:05 bin
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 include
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 lib
+drwxr-xr-x  2 root root 4096 Apr 19 07:05 licenses
+-rw-r--r--  1 root root 6800 Apr 19 07:05 .spdx-ini-file.spdx
+-rw-r--r--  1 root root 9181 Apr 19 06:55 .spdx-render-template.spdx
+
+common/bin:
+total 4508
+drwxr-xr-x 2 root root    4096 Apr 19 07:05 .
+drwxr-xr-x 6 root root    4096 Apr 19 07:05 ..
+-rwxr-xr-x 1 root root 1916928 Apr 19 07:04 ini-file
+-rwxr-xr-x 1 root root   23232 Apr 21 18:29 mmdblookup
+-rwxr-xr-x 1 root root 2666496 Apr 19 06:55 render-template
+
+common/include:
+total 28
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 6 root root 4096 Apr 19 07:05 ..
+-rw-r--r-- 1 root root  504 Apr 21 18:29 maxminddb_config.h
+-rw-r--r-- 1 root root 8543 Apr 21 18:29 maxminddb.h
+drwxr-xr-x 4 root root 4096 Apr 26 12:13 modsecurity
+
+common/include/modsecurity:
+total 152
+drwxr-xr-x 4 root root  4096 Apr 26 12:13 .
+drwxr-xr-x 3 root root  4096 Apr 21 18:39 ..
+drwxr-xr-x 2 root root  4096 Apr 26 12:13 actions
+-rw-r--r-- 1 root root  2881 Apr 26 11:54 anchored_set_variable.h
+-rw-r--r-- 1 root root  3686 Apr 26 11:54 anchored_set_variable_translation_proxy.h
+-rw-r--r-- 1 root root  2095 Apr 26 11:54 anchored_variable.h
+-rw-r--r-- 1 root root  5702 Apr 26 11:54 audit_log.h
+drwxr-xr-x 2 root root  4096 Apr 26 12:13 collection
+-rw-r--r-- 1 root root  1572 Apr 26 11:54 debug_log.h
+-rw-r--r-- 1 root root  1656 Apr 26 11:54 intervention.h
+-rw-r--r-- 1 root root  8563 Apr 26 11:54 modsecurity.h
+-rw-r--r-- 1 root root  3149 Apr 26 11:54 rule.h
+-rw-r--r-- 1 root root  2239 Apr 26 11:54 rule_marker.h
+-rw-r--r-- 1 root root  6634 Apr 26 11:54 rule_message.h
+-rw-r--r-- 1 root root  2934 Apr 26 11:54 rules_exceptions.h
+-rw-r--r-- 1 root root  2861 Apr 26 11:54 rules.h
+-rw-r--r-- 1 root root  2648 Apr 26 11:54 rules_set.h
+-rw-r--r-- 1 root root  1378 Apr 26 11:54 rules_set_phases.h
+-rw-r--r-- 1 root root 14497 Apr 26 11:54 rules_set_properties.h
+-rw-r--r-- 1 root root  1797 Apr 26 11:54 rule_unconditional.h
+-rw-r--r-- 1 root root  5934 Apr 26 11:54 rule_with_actions.h
+-rw-r--r-- 1 root root  2317 Apr 26 11:54 rule_with_operator.h
+-rw-r--r-- 1 root root 23634 Apr 26 11:54 transaction.h
+-rw-r--r-- 1 root root  1227 Apr 26 11:54 variable_origin.h
+-rw-r--r-- 1 root root  2848 Apr 26 11:54 variable_value.h
+
+common/include/modsecurity/actions:
+total 12
+drwxr-xr-x 2 root root 4096 Apr 26 12:13 .
+drwxr-xr-x 4 root root 4096 Apr 26 12:13 ..
+-rw-r--r-- 1 root root 4066 Apr 26 11:54 action.h
+
+common/include/modsecurity/collection:
+total 20
+drwxr-xr-x 2 root root 4096 Apr 26 12:13 .
+drwxr-xr-x 4 root root 4096 Apr 26 12:13 ..
+-rw-r--r-- 1 root root 6288 Apr 26 11:54 collection.h
+-rw-r--r-- 1 root root 1917 Apr 26 11:54 collections.h
+
+common/lib:
+total 2408
+drwxr-xr-x 3 root root    4096 Apr 21 18:39 .
+drwxr-xr-x 6 root root    4096 Apr 19 07:05 ..
+lrwxrwxrwx 1 root root      21 Apr 21 18:29 libmaxminddb.so -> libmaxminddb.so.0.0.7
+lrwxrwxrwx 1 root root      21 Apr 21 18:29 libmaxminddb.so.0 -> libmaxminddb.so.0.0.7
+-rwxr-xr-x 1 root root   22640 Apr 21 18:29 libmaxminddb.so.0.0.7
+lrwxrwxrwx 1 root root      23 Apr 26 11:54 libmodsecurity.so -> libmodsecurity.so.3.0.9
+lrwxrwxrwx 1 root root      23 Apr 26 11:54 libmodsecurity.so.3 -> libmodsecurity.so.3.0.9
+-rwxr-xr-x 1 root root 2426224 Apr 26 11:55 libmodsecurity.so.3.0.9
+drwxr-xr-x 2 root root    4096 Apr 21 18:39 pkgconfig
+
+common/lib/pkgconfig:
+total 16
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root  302 Apr 21 18:29 libmaxminddb.pc
+-rw-r--r-- 1 root root  285 Apr 26 11:54 modsecurity.pc
+
+common/licenses:
+total 40
+drwxr-xr-x 2 root root  4096 Apr 19 07:05 .
+drwxr-xr-x 6 root root  4096 Apr 19 07:05 ..
+-rw-r--r-- 1 root root    53 Apr 19 07:04 ini-file-1.4.5.txt
+-rw-r--r-- 1 root root 11358 Apr 21 18:29 libmaxminddb-1.7.1.txt
+-rw-r--r-- 1 root root 11357 Apr 26 11:54 modsecurity-3.0.9.txt
+-rw-r--r-- 1 root root    53 Apr 19 06:55 render-template-1.0.5.txt

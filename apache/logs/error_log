@@ -1,0 +1,5 @@
+[Mon May 29 20:44:03.227334 2023] [mpm_event:notice] [pid 1337:tid 140474730839040] AH00489: Apache/2.4.57 (Unix) OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon May 29 20:44:03.227507 2023] [core:notice] [pid 1337:tid 140474730839040] AH00094: Command line: '/opt/bitnami/apache/bin/httpd -f /opt/bitnami/apache/conf/httpd.conf'
+[Mon May 29 21:47:32.706554 2023] [core:warn] [pid 285:tid 140385390676992] AH00098: pid file /opt/bitnami/apache/var/run/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 29 21:47:32.723322 2023] [mpm_event:notice] [pid 285:tid 140385390676992] AH00489: Apache/2.4.57 (Unix) OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon May 29 21:47:32.723486 2023] [core:notice] [pid 285:tid 140385390676992] AH00094: Command line: '/opt/bitnami/apache/bin/httpd -f /opt/bitnami/apache/conf/httpd.conf'

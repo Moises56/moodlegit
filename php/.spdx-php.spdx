@@ -1,0 +1,163 @@
+{
+    "SPDXID": "SPDXRef-php",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-04-21T18:23:52.320Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for PHP 8.0.28",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-php"
+    ],
+    "documentNamespace": "php-8.0.28",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-peclapcu",
+            "name": "PECL APC User Cache",
+            "versionInfo": "5.1.22",
+            "downloadLocation": "https://pecl.php.net/get/apcu-5.1.22.tgz",
+            "licenseConcluded": "PHP-3.0",
+            "licenseDeclared": "PHP-3.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:peclapcu:peclapcu:5.1.22:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-php",
+            "name": "PHP",
+            "versionInfo": "8.0.28",
+            "downloadLocation": "https://github.com/php/php-src/archive/refs/tags/php-8.0.28.tar.gz",
+            "licenseConcluded": "PHP-3.01",
+            "licenseDeclared": "PHP-3.01",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:php:php:8.0.28:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-peclimagick",
+            "name": "PECL PHP driver for Imagick",
+            "versionInfo": "3.7.0",
+            "downloadLocation": "https://pecl.php.net/get/imagick-3.7.0.tgz",
+            "licenseConcluded": "PHP-3.01",
+            "licenseDeclared": "PHP-3.01",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:peclimagick:peclimagick:3.7.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-libmemcached",
+            "name": "libmemcached",
+            "versionInfo": "3.2.0",
+            "downloadLocation": "https://github.com/php-memcached-dev/php-memcached/archive/v3.2.0.tar.gz",
+            "licenseConcluded": "PHP-3.0",
+            "licenseDeclared": "PHP-3.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:awesome:libmemcached:3.2.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-libmaxminddb",
+            "name": "libmaxminddb",
+            "versionInfo": "1.7.1",
+            "downloadLocation": "https://github.com/maxmind/libmaxminddb/archive/1.7.1.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:maxmind:libmaxminddb:1.7.1:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maxmind-db-reader-php",
+            "name": "MaxMind DB Reader PHP API",
+            "versionInfo": "1.11.0",
+            "downloadLocation": "https://github.com/maxmind/MaxMind-DB-Reader-php/archive/v1.11.0.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:maxmind-db-reader-php:maxmind-db-reader-php:1.11.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-peclmongodb",
+            "name": "PECL PHP driver for MongoDB",
+            "versionInfo": "1.15.2",
+            "downloadLocation": "https://pecl.php.net/get/mongodb-1.15.2.tgz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:peclmongodb:peclmongodb:1.15.2:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-peclxdebug",
+            "name": "PECL PHP driver for Xdebug",
+            "versionInfo": "3.2.1",
+            "downloadLocation": "https://pecl.php.net/get/xdebug-3.2.1.tgz",
+            "licenseConcluded": "PHP-3.01",
+            "licenseDeclared": "PHP-3.01",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:peclxdebug:peclxdebug:3.2.1:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-composer",
+            "name": "Composer",
+            "versionInfo": "2.5.5",
+            "downloadLocation": "https://github.com/composer/composer/archive/2.5.5.tar.gz",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:getcomposer:composer:2.5.5:*:*:*:*:*:*:*"
+                }
+            ]
+        }
+    ],
+    "files": []
+}

@@ -1,0 +1,1058 @@
+mariadb:
+total 200
+drwxr-xr-x 12 root root  4096 May  8 15:02 .
+drwxr-xr-x 13 root root  4096 May  8 15:02 ..
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 bin
+drwxrwxr-x  3 root root  4096 May  8 15:02 conf
+-rw-r--r--  1 root root 17987 Feb  6 19:55 COPYING
+-rw-r--r--  1 root root  2104 Feb  6 19:55 CREDITS
+lrwxrwxrwx  1 root root    21 May  8 15:02 data -> /bitnami/mariadb/data
+drwxr-xr-x  3 root root  4096 Apr 26 12:02 include
+-rw-r--r--  1 root root  8794 Feb  6 19:55 INSTALL-BINARY
+drwxr-xr-x  3 root root  4096 May  8 15:02 lib
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 licenses
+drwxrwxr-x  2 root root  4096 May  8 15:02 logs
+drwxr-xr-x  3 root root  4096 Apr 26 12:02 plugin
+-rw-r--r--  1 root root  2697 Feb  6 19:55 README.md
+-rw-r--r--  1 root root 19518 Feb  6 19:55 README-wsrep
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 sbin
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 share
+-rw-r--r--  1 root root  1083 Apr 26 11:52 .spdx-mariadb.spdx
+-rw-r--r--  1 root root 86263 Feb  6 19:55 THIRDPARTY
+drwxrwxr-x  2 root root  4096 May  8 15:02 tmp
+
+mariadb/bin:
+total 189780
+drwxr-xr-x  2 root root     4096 Apr 26 12:02 .
+drwxr-xr-x 12 root root     4096 May  8 15:02 ..
+-rwxr-xr-x  1 root root  5523904 Apr 26 11:52 aria_chk
+-rwxr-xr-x  1 root root  5316960 Apr 26 11:52 aria_dump_log
+-rwxr-xr-x  1 root root  5329408 Apr 26 11:52 aria_ftdump
+-rwxr-xr-x  1 root root  5351456 Apr 26 11:52 aria_pack
+-rwxr-xr-x  1 root root  5470176 Apr 26 11:52 aria_read_log
+-rwxr-xr-x  1 root root  4664560 Apr 26 11:52 innochecksum
+lrwxrwxrwx  1 root root       14 Apr 26 11:50 mariabackup -> mariadb-backup
+-rwxr-xr-x  1 root root  5389376 Apr 26 11:52 mariadb
+-rwxr-xr-x  1 root root   112073 Apr 26 11:31 mariadb-access
+-rwxr-xr-x  1 root root  4932848 Apr 26 11:52 mariadb-admin
+-rwxr-xr-x  1 root root 25976360 Apr 26 11:52 mariadb-backup
+-rwxr-xr-x  1 root root  5201824 Apr 26 11:52 mariadb-binlog
+-rwxr-xr-x  1 root root  4930160 Apr 26 11:52 mariadb-check
+-rwxr-xr-x  1 root root  5402224 Apr 26 11:52 mariadb-client-test
+lrwxrwxrwx  1 root root       14 Apr 26 11:50 mariadb-config -> mariadb_config
+-rwxr-xr-x  1 root root    14856 Apr 26 11:31 mariadb_config
+-rwxr-xr-x  1 root root  4655104 Apr 26 11:52 mariadb-conv
+-rwxr-xr-x  1 root root     4221 Apr 26 11:31 mariadb-convert-table-format
+-rwxr-xr-x  1 root root    27596 Apr 26 11:31 mariadbd-multi
+-rwxr-xr-x  1 root root    31238 Apr 26 11:31 mariadbd-safe
+-rwxr-xr-x  1 root root  4592720 Apr 26 11:52 mariadbd-safe-helper
+-rwxr-xr-x  1 root root  5013424 Apr 26 11:52 mariadb-dump
+-rwxr-xr-x  1 root root     8242 Apr 26 11:31 mariadb-dumpslow
+-rwxr-xr-x  1 root root     3290 Apr 26 11:31 mariadb-find-rows
+-rwxr-xr-x  1 root root     1250 Apr 26 11:31 mariadb-fix-extensions
+-rwxr-xr-x  1 root root    34973 Apr 26 11:31 mariadb-hotcopy
+-rwxr-xr-x  1 root root  4920848 Apr 26 11:52 mariadb-import
+-rwxr-xr-x  1 root root    22488 Apr 26 11:31 mariadb-install-db
+-rwxr-xr-x  1 root root  4373456 Apr 26 11:52 mariadb-ldb
+-rwxr-xr-x  1 root root  4635344 Apr 26 11:52 mariadb-plugin
+-rwxr-xr-x  1 root root    13731 Apr 26 11:31 mariadb-secure-installation
+-rwxr-xr-x  1 root root    17980 Apr 26 11:31 mariadb-setpermission
+-rwxr-xr-x  1 root root  4919376 Apr 26 11:52 mariadb-show
+-rwxr-xr-x  1 root root  4934512 Apr 26 11:52 mariadb-slap
+-rwxr-xr-x  1 root root  5679968 Apr 26 11:52 mariadb-test
+-rwxr-xr-x  1 root root  4630576 Apr 26 11:52 mariadb-tzinfo-to-sql
+-rwxr-xr-x  1 root root  5081712 Apr 26 11:52 mariadb-upgrade
+-rwxr-xr-x  1 root root  4622128 Apr 26 11:52 mariadb-waitpid
+-rwxr-xr-x  1 root root  4655344 Apr 26 11:52 mbstream
+-rwxr-xr-x  1 root root     1462 Apr 26 11:31 msql2mysql
+-rwxr-xr-x  1 root root  5038640 Apr 26 11:52 myisamchk
+-rwxr-xr-x  1 root root  4919152 Apr 26 11:52 myisam_ftdump
+-rwxr-xr-x  1 root root  4901712 Apr 26 11:52 myisamlog
+-rwxr-xr-x  1 root root  4932016 Apr 26 11:52 myisampack
+-rwxr-xr-x  1 root root  4622512 Apr 26 11:52 my_print_defaults
+-rwxr-xr-x  1 root root    25050 Apr 26 11:31 myrocks_hotbackup
+lrwxrwxrwx  1 root root        7 Apr 26 11:50 mysql -> mariadb
+lrwxrwxrwx  1 root root       14 Apr 26 11:50 mysqlaccess -> mariadb-access
+lrwxrwxrwx  1 root root       13 Apr 26 11:50 mysqladmin -> mariadb-admin
+lrwxrwxrwx  1 root root       14 Apr 26 11:50 mysqlbinlog -> mariadb-binlog
+lrwxrwxrwx  1 root root       13 Apr 26 11:50 mysqlcheck -> mariadb-check
+lrwxrwxrwx  1 root root       19 Apr 26 11:50 mysql_client_test -> mariadb-client-test
+-rwxr-xr-x  1 root root     4701 Apr 26 11:31 mysql_config
+lrwxrwxrwx  1 root root       28 Apr 26 11:50 mysql_convert_table_format -> mariadb-convert-table-format
+lrwxrwxrwx  1 root root       14 Apr 26 11:50 mysqld_multi -> mariadbd-multi
+lrwxrwxrwx  1 root root       13 Apr 26 11:50 mysqld_safe -> mariadbd-safe
+lrwxrwxrwx  1 root root       20 Apr 26 11:50 mysqld_safe_helper -> mariadbd-safe-helper
+lrwxrwxrwx  1 root root       12 Apr 26 11:50 mysqldump -> mariadb-dump
+lrwxrwxrwx  1 root root       16 Apr 26 11:50 mysqldumpslow -> mariadb-dumpslow
+lrwxrwxrwx  1 root root       17 Apr 26 11:50 mysql_find_rows -> mariadb-find-rows
+lrwxrwxrwx  1 root root       22 Apr 26 11:50 mysql_fix_extensions -> mariadb-fix-extensions
+lrwxrwxrwx  1 root root       15 Apr 26 11:50 mysqlhotcopy -> mariadb-hotcopy
+lrwxrwxrwx  1 root root       14 Apr 26 11:50 mysqlimport -> mariadb-import
+lrwxrwxrwx  1 root root       18 Apr 26 11:50 mysql_install_db -> mariadb-install-db
+lrwxrwxrwx  1 root root       11 Apr 26 11:50 mysql_ldb -> mariadb-ldb
+lrwxrwxrwx  1 root root       14 Apr 26 11:50 mysql_plugin -> mariadb-plugin
+lrwxrwxrwx  1 root root       27 Apr 26 11:50 mysql_secure_installation -> mariadb-secure-installation
+lrwxrwxrwx  1 root root       21 Apr 26 11:50 mysql_setpermission -> mariadb-setpermission
+lrwxrwxrwx  1 root root       12 Apr 26 11:50 mysqlshow -> mariadb-show
+lrwxrwxrwx  1 root root       12 Apr 26 11:50 mysqlslap -> mariadb-slap
+lrwxrwxrwx  1 root root       12 Apr 26 11:50 mysqltest -> mariadb-test
+lrwxrwxrwx  1 root root       21 Apr 26 11:50 mysql_tzinfo_to_sql -> mariadb-tzinfo-to-sql
+lrwxrwxrwx  1 root root       15 Apr 26 11:50 mysql_upgrade -> mariadb-upgrade
+lrwxrwxrwx  1 root root       15 Apr 26 11:50 mysql_waitpid -> mariadb-waitpid
+-rwxr-xr-x  1 root root    73480 Apr 26 11:31 mytop
+-rwxr-xr-x  1 root root  4824400 Apr 26 11:52 perror
+-rwxr-xr-x  1 root root  4609136 Apr 26 11:52 replace
+-rwxr-xr-x  1 root root  4622128 Apr 26 11:52 resolveip
+-rwxr-xr-x  1 root root  4626224 Apr 26 11:52 resolve_stack_dump
+-rwxr-xr-x  1 root root  4369336 Apr 26 11:52 sst_dump
+-rwxr-xr-x  1 root root     3025 Apr 26 11:31 wsrep_sst_backup
+-rw-r--r--  1 root root    55400 Apr 26 11:31 wsrep_sst_common
+-rwxr-xr-x  1 root root    52090 Apr 26 11:31 wsrep_sst_mariabackup
+-rwxr-xr-x  1 root root     7856 Apr 26 11:31 wsrep_sst_mysqldump
+-rwxr-xr-x  1 root root    32935 Apr 26 11:31 wsrep_sst_rsync
+lrwxrwxrwx  1 root root       15 Apr 26 11:50 wsrep_sst_rsync_wan -> wsrep_sst_rsync
+
+mariadb/conf:
+total 16
+drwxrwxr-x  3 root    root 4096 May  8 15:02 .
+drwxr-xr-x 12 root    root 4096 May  8 15:02 ..
+drwxrwxr-x  3 root    root 4096 May  8 15:02 bitnami
+-rw-rw-r--  1 bitnami root  832 May  8 15:02 my.cnf
+
+mariadb/conf/bitnami:
+total 12
+drwxrwxr-x 3 root root 4096 May  8 15:02 .
+drwxrwxr-x 3 root root 4096 May  8 15:02 ..
+drwxr-xr-x 2 root root 4096 May  8 15:02 memory
+lrwxrwxrwx 1 root root   20 May  8 15:02 memory.conf -> memory/my-micro.conf
+
+mariadb/conf/bitnami/memory:
+total 32
+drwxr-xr-x 2 root root 4096 May  8 15:02 .
+drwxrwxr-x 3 root root 4096 May  8 15:02 ..
+-rw-r--r-- 1 root root  249 May  8 15:02 my-2xlarge.conf
+-rw-r--r-- 1 root root  249 May  8 15:02 my-large.conf
+-rw-r--r-- 1 root root  248 May  8 15:02 my-medium.conf
+-rw-r--r-- 1 root root  247 May  8 15:02 my-micro.conf
+-rw-r--r-- 1 root root  248 May  8 15:02 my-small.conf
+-rw-r--r-- 1 root root  249 May  8 15:02 my-xlarge.conf
+
+mariadb/include:
+total 12
+drwxr-xr-x  3 root root 4096 Apr 26 12:02 .
+drwxr-xr-x 12 root root 4096 May  8 15:02 ..
+drwxr-xr-x  5 root root 4096 Apr 26 12:02 mysql
+
+mariadb/include/mysql:
+total 220
+drwxr-xr-x 5 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 3 root root  4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root  4564 Feb  6 19:55 errmsg.h
+-rw-r--r-- 1 root root  1619 Feb  6 19:55 ma_list.h
+-rw-r--r-- 1 root root  4580 Feb  6 19:55 ma_pvio.h
+drwxr-xr-x 2 root root  4096 Apr 26 12:02 mariadb
+-rw-r--r-- 1 root root 18295 Feb  6 19:55 mariadb_com.h
+-rw-r--r-- 1 root root  2593 Feb  6 19:55 mariadb_ctype.h
+-rw-r--r-- 1 root root  8270 Feb  6 19:55 mariadb_dyncol.h
+-rw-r--r-- 1 root root  8168 Feb  6 19:55 mariadb_rpl.h
+-rw-r--r-- 1 root root  9734 Feb  6 19:55 mariadb_stmt.h
+-rw-r--r-- 1 root root  1227 Apr 26 11:31 mariadb_version.h
+-rw-r--r-- 1 root root  4345 Feb  6 19:55 ma_tls.h
+-rw-r--r-- 1 root root   148 Apr 26 11:50 my_config.h
+-rw-r--r-- 1 root root   148 Apr 26 11:50 my_global.h
+drwxr-xr-x 2 root root  4096 Apr 26 12:02 mysql
+-rw-r--r-- 1 root root   174 Apr 26 11:50 mysql_com.h
+-rw-r--r-- 1 root root 48400 Apr 26 11:36 mysqld_error.h
+-rw-r--r-- 1 root root 41704 Feb  6 19:55 mysql.h
+-rw-r--r-- 1 root root   230 Apr 26 11:50 mysql_version.h
+-rw-r--r-- 1 root root   148 Apr 26 11:50 my_sys.h
+drwxr-xr-x 4 root root  4096 Apr 26 12:02 server
+
+mariadb/include/mysql/mariadb:
+total 12
+drwxr-xr-x 2 root root 4096 Apr 26 12:02 .
+drwxr-xr-x 5 root root 4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root 1622 Feb  6 19:55 ma_io.h
+
+mariadb/include/mysql/mysql:
+total 28
+drwxr-xr-x 2 root root 4096 Apr 26 12:02 .
+drwxr-xr-x 5 root root 4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root 9197 Feb  6 19:55 client_plugin.h
+-rw-r--r-- 1 root root 3873 Feb  6 19:55 plugin_auth_common.h
+-rw-r--r-- 1 root root 3793 Feb  6 19:55 plugin_auth.h
+
+mariadb/include/mysql/server:
+total 712
+drwxr-xr-x 4 root root   4096 Apr 26 12:02 .
+drwxr-xr-x 5 root root   4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root   4505 Feb  6 19:55 big_endian.h
+-rw-r--r-- 1 root root   5242 Feb  6 19:55 byte_order_generic.h
+-rw-r--r-- 1 root root   4129 Feb  6 19:55 byte_order_generic_x86_64.h
+-rw-r--r-- 1 root root   4282 Feb  6 19:55 byte_order_generic_x86.h
+-rw-r--r-- 1 root root   4921 Feb  6 19:55 decimal.h
+-rw-r--r-- 1 root root   4409 Feb  6 19:55 errmsg.h
+-rw-r--r-- 1 root root   4451 Feb  6 19:55 handler_ername.h
+-rw-r--r-- 1 root root    758 Feb  6 19:55 handler_state.h
+-rw-r--r-- 1 root root  14047 Feb  6 19:55 json_lib.h
+-rw-r--r-- 1 root root   8827 Feb  6 19:55 keycache.h
+-rw-r--r-- 1 root root   3572 Feb  6 19:55 little_endian.h
+-rw-r--r-- 1 root root   8045 Feb  6 19:55 ma_dyncol.h
+-rw-r--r-- 1 root root   3200 Feb  6 19:55 mariadb_capi_rename.h
+-rw-r--r-- 1 root root  68735 Feb  6 19:55 m_ctype.h
+-rw-r--r-- 1 root root   8771 Feb  6 19:55 m_string.h
+-rw-r--r-- 1 root root   2030 Feb  6 19:55 my_alloc.h
+-rw-r--r-- 1 root root   2249 Feb  6 19:55 my_attribute.h
+-rw-r--r-- 1 root root   2053 Feb  6 19:55 my_byteorder.h
+-rw-r--r-- 1 root root   4948 Feb  6 19:55 my_compiler.h
+-rw-r--r-- 1 root root  14627 Apr 26 11:31 my_config.h
+-rw-r--r-- 1 root root   9916 Feb  6 19:55 my_dbug.h
+-rw-r--r-- 1 root root   2074 Feb  6 19:55 my_decimal_limits.h
+-rw-r--r-- 1 root root   3887 Feb  6 19:55 my_dir.h
+-rw-r--r-- 1 root root   5604 Feb  6 19:55 my_getopt.h
+-rw-r--r-- 1 root root  33329 Feb  6 19:55 my_global.h
+-rw-r--r-- 1 root root   1506 Feb  6 19:55 my_list.h
+-rw-r--r-- 1 root root   2029 Feb  6 19:55 my_net.h
+-rw-r--r-- 1 root root  26916 Feb  6 19:55 my_pthread.h
+drwxr-xr-x 3 root root   4096 Apr 26 12:02 mysql
+-rw-r--r-- 1 root root  31029 Feb  6 19:55 mysql_com.h
+-rw-r--r-- 1 root root   1313 Feb  6 19:55 mysql_com_server.h
+-rw-r--r-- 1 root root 128522 Apr 26 11:36 mysqld_ername.h
+-rw-r--r-- 1 root root  48400 Apr 26 11:36 mysqld_error.h
+-rw-r--r-- 1 root root   1124 Feb  6 19:55 mysql_embed.h
+-rw-r--r-- 1 root root  40057 Feb  6 19:55 mysql.h
+-rw-r--r-- 1 root root   2420 Feb  6 19:55 mysql_time.h
+-rw-r--r-- 1 root root   1303 Apr 26 11:31 mysql_version.h
+-rw-r--r-- 1 root root  48912 Feb  6 19:55 my_sys.h
+-rw-r--r-- 1 root root   4544 Feb  6 19:55 my_valgrind.h
+-rw-r--r-- 1 root root   2832 Feb  6 19:55 my_xml.h
+-rw-r--r-- 1 root root   1105 Feb  6 19:55 pack.h
+drwxr-xr-x 5 root root  12288 Apr 26 12:02 private
+-rw-r--r-- 1 root root   5234 Feb  6 19:55 sql_common.h
+-rw-r--r-- 1 root root  14955 Apr 26 11:36 sql_state.h
+-rw-r--r-- 1 root root   1534 Feb  6 19:55 sslopt-case.h
+-rw-r--r-- 1 root root   2710 Feb  6 19:55 sslopt-longopts.h
+-rw-r--r-- 1 root root   1405 Feb  6 19:55 sslopt-vars.h
+-rw-r--r-- 1 root root   2396 Feb  6 19:55 typelib.h
+
+mariadb/include/mysql/server/mysql:
+total 260
+drwxr-xr-x 3 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 4 root root  4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root  2061 Feb  6 19:55 auth_dialog_client.h
+-rw-r--r-- 1 root root  6327 Feb  6 19:55 client_plugin.h
+-rw-r--r-- 1 root root  5537 Feb  6 19:55 plugin_audit.h
+-rw-r--r-- 1 root root  4509 Feb  6 19:55 plugin_auth_common.h
+-rw-r--r-- 1 root root  5400 Feb  6 19:55 plugin_auth.h
+-rw-r--r-- 1 root root  1300 Feb  6 19:55 plugin_data_type.h
+-rw-r--r-- 1 root root  4433 Feb  6 19:55 plugin_encryption.h
+-rw-r--r-- 1 root root  7832 Feb  6 19:55 plugin_ftparser.h
+-rw-r--r-- 1 root root  1437 Feb  6 19:55 plugin_function.h
+-rw-r--r-- 1 root root 29459 Feb  6 19:55 plugin.h
+-rw-r--r-- 1 root root  1620 Feb  6 19:55 plugin_password_validation.h
+drwxr-xr-x 2 root root  4096 Apr 26 12:02 psi
+-rw-r--r-- 1 root root  2932 Feb  6 19:55 service_base64.h
+-rw-r--r-- 1 root root 13495 Feb  6 19:55 service_debug_sync.h
+-rw-r--r-- 1 root root  5728 Feb  6 19:55 service_encryption.h
+-rw-r--r-- 1 root root  5646 Feb  6 19:55 service_encryption_scheme.h
+-rw-r--r-- 1 root root  4551 Feb  6 19:55 service_json.h
+-rw-r--r-- 1 root root  2070 Feb  6 19:55 service_kill_statement.h
+-rw-r--r-- 1 root root  3551 Feb  6 19:55 service_logger.h
+-rw-r--r-- 1 root root  2119 Feb  6 19:55 service_md5.h
+-rw-r--r-- 1 root root  4166 Feb  6 19:55 service_my_crypt.h
+-rw-r--r-- 1 root root  2328 Feb  6 19:55 service_my_print_error.h
+-rw-r--r-- 1 root root  3722 Feb  6 19:55 service_my_snprintf.h
+-rw-r--r-- 1 root root  3356 Feb  6 19:55 service_progress_report.h
+-rw-r--r-- 1 root root  1762 Feb  6 19:55 services.h
+-rw-r--r-- 1 root root  2162 Feb  6 19:55 service_sha1.h
+-rw-r--r-- 1 root root  5299 Feb  6 19:55 service_sha2.h
+-rw-r--r-- 1 root root  4376 Feb  6 19:55 service_sql.h
+-rw-r--r-- 1 root root  4490 Feb  6 19:55 service_thd_alloc.h
+-rw-r--r-- 1 root root  1692 Feb  6 19:55 service_thd_autoinc.h
+-rw-r--r-- 1 root root  3424 Feb  6 19:55 service_thd_error_context.h
+-rw-r--r-- 1 root root  1282 Feb  6 19:55 service_thd_mdl.h
+-rw-r--r-- 1 root root  1902 Feb  6 19:55 service_thd_rnd.h
+-rw-r--r-- 1 root root  3686 Feb  6 19:55 service_thd_specifics.h
+-rw-r--r-- 1 root root  2291 Feb  6 19:55 service_thd_timezone.h
+-rw-r--r-- 1 root root  3695 Feb  6 19:55 service_thd_wait.h
+-rw-r--r-- 1 root root 14105 Feb  6 19:55 service_wsrep.h
+
+mariadb/include/mysql/server/mysql/psi:
+total 288
+drwxr-xr-x 2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 3 root root  4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root 40941 Feb  6 19:55 mysql_file.h
+-rw-r--r-- 1 root root  3043 Feb  6 19:55 mysql_idle.h
+-rw-r--r-- 1 root root  4500 Feb  6 19:55 mysql_mdl.h
+-rw-r--r-- 1 root root  2615 Feb  6 19:55 mysql_memory.h
+-rw-r--r-- 1 root root  3879 Feb  6 19:55 mysql_ps.h
+-rw-r--r-- 1 root root 36237 Feb  6 19:55 mysql_socket.h
+-rw-r--r-- 1 root root  3240 Feb  6 19:55 mysql_sp.h
+-rw-r--r-- 1 root root  5194 Feb  6 19:55 mysql_stage.h
+-rw-r--r-- 1 root root  7110 Feb  6 19:55 mysql_statement.h
+-rw-r--r-- 1 root root  5681 Feb  6 19:55 mysql_table.h
+-rw-r--r-- 1 root root 32510 Feb  6 19:55 mysql_thread.h
+-rw-r--r-- 1 root root  7232 Feb  6 19:55 mysql_transaction.h
+-rw-r--r-- 1 root root  1432 Feb  6 19:55 psi_abi_v0.h
+-rw-r--r-- 1 root root  1463 Feb  6 19:55 psi_abi_v1.h
+-rw-r--r-- 1 root root  1463 Feb  6 19:55 psi_abi_v2.h
+-rw-r--r-- 1 root root  4631 Feb  6 19:55 psi_base.h
+-rw-r--r-- 1 root root 88029 Feb  6 19:55 psi.h
+-rw-r--r-- 1 root root  4601 Feb  6 19:55 psi_memory.h
+
+mariadb/include/mysql/server/private:
+total 5596
+drwxr-xr-x 5 root root  12288 Apr 26 12:02 .
+drwxr-xr-x 4 root root   4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root   1136 Feb  6 19:55 aligned.h
+-rw-r--r-- 1 root root   1547 Feb  6 19:55 aria_backup.h
+-rw-r--r-- 1 root root   2350 Feb  6 19:55 assume_aligned.h
+drwxr-xr-x 2 root root   4096 Apr 26 12:02 atomic
+-rw-r--r-- 1 root root  10141 Feb  6 19:55 authors.h
+-rw-r--r-- 1 root root   1703 Feb  6 19:55 backup.h
+-rw-r--r-- 1 root root   6834 Feb  6 19:55 bounded_queue.h
+-rw-r--r-- 1 root root   1935 Feb  6 19:55 client_settings.h
+-rw-r--r-- 1 root root   2280 Feb  6 19:55 compat56.h
+-rw-r--r-- 1 root root  14627 Apr 26 11:31 config.h
+-rw-r--r-- 1 root root   2985 Feb  6 19:55 contributors.h
+-rw-r--r-- 1 root root   4030 Feb  6 19:55 create_options.h
+-rw-r--r-- 1 root root   2808 Feb  6 19:55 create_tmp_table.h
+-rw-r--r-- 1 root root   1082 Feb  6 19:55 custom_conf.h
+drwxr-xr-x 2 root root   4096 Jan  1  1970 data
+-rw-r--r-- 1 root root   1700 Feb  6 19:55 datadict.h
+-rw-r--r-- 1 root root  12807 Feb  6 19:55 ddl_log.h
+-rw-r--r-- 1 root root   1234 Feb  6 19:55 debug.h
+-rw-r--r-- 1 root root   2046 Feb  6 19:55 debug_sync.h
+-rw-r--r-- 1 root root   2371 Feb  6 19:55 derived_handler.h
+-rw-r--r-- 1 root root    980 Feb  6 19:55 derror.h
+-rw-r--r-- 1 root root   1244 Feb  6 19:55 des_key_file.h
+-rw-r--r-- 1 root root   1570 Feb  6 19:55 discover.h
+-rw-r--r-- 1 root root   1082 Feb  6 19:55 dur_prop.h
+-rw-r--r-- 1 root root   4160 Feb  6 19:55 event_data_objects.h
+-rw-r--r-- 1 root root   3639 Feb  6 19:55 event_db_repository.h
+-rw-r--r-- 1 root root   2899 Feb  6 19:55 event_parse_data.h
+-rw-r--r-- 1 root root   3438 Feb  6 19:55 event_queue.h
+-rw-r--r-- 1 root root   3290 Feb  6 19:55 event_scheduler.h
+-rw-r--r-- 1 root root   4704 Feb  6 19:55 events.h
+-rw-r--r-- 1 root root   1174 Feb  6 19:55 field_comp.h
+-rw-r--r-- 1 root root 218805 Feb  6 19:55 field.h
+-rw-r--r-- 1 root root   7133 Feb  6 19:55 filesort.h
+-rw-r--r-- 1 root root   8568 Feb  6 19:55 filesort_utils.h
+-rw-r--r-- 1 root root   3113 Feb  6 19:55 ft_global.h
+-rw-r--r-- 1 root root  17264 Feb  6 19:55 gcalc_slicescan.h
+-rw-r--r-- 1 root root  11810 Feb  6 19:55 gcalc_tools.h
+-rw-r--r-- 1 root root   2758 Feb  6 19:55 grant.h
+-rw-r--r-- 1 root root   3321 Feb  6 19:55 group_by_handler.h
+-rw-r--r-- 1 root root   2437 Feb  6 19:55 gstream.h
+-rw-r--r-- 1 root root    884 Feb  6 19:55 handle_connections_win.h
+-rw-r--r-- 1 root root 197427 Feb  6 19:55 handler.h
+-rw-r--r-- 1 root root  63547 Feb  6 19:55 ha_partition.h
+-rw-r--r-- 1 root root   5660 Feb  6 19:55 ha_sequence.h
+-rw-r--r-- 1 root root   5680 Feb  6 19:55 hash_filo.h
+-rw-r--r-- 1 root root   4444 Feb  6 19:55 hash.h
+-rw-r--r-- 1 root root   9422 Feb  6 19:55 heap.h
+-rw-r--r-- 1 root root   5419 Feb  6 19:55 hostname.h
+-rw-r--r-- 1 root root   7129 Feb  6 19:55 ilist.h
+-rw-r--r-- 1 root root    852 Feb  6 19:55 init.h
+-rw-r--r-- 1 root root   1319 Feb  6 19:55 innodb_priv.h
+-rw-r--r-- 1 root root 130680 Feb  6 19:55 item_cmpfunc.h
+-rw-r--r-- 1 root root  10226 Feb  6 19:55 item_create.h
+-rw-r--r-- 1 root root 131898 Feb  6 19:55 item_func.h
+-rw-r--r-- 1 root root  38528 Feb  6 19:55 item_geofunc.h
+-rw-r--r-- 1 root root 266204 Feb  6 19:55 item.h
+-rw-r--r-- 1 root root  23651 Feb  6 19:55 item_jsonfunc.h
+-rw-r--r-- 1 root root   5203 Feb  6 19:55 item_row.h
+-rw-r--r-- 1 root root  67748 Feb  6 19:55 item_strfunc.h
+-rw-r--r-- 1 root root  53661 Feb  6 19:55 item_subselect.h
+-rw-r--r-- 1 root root  71248 Feb  6 19:55 item_sum.h
+-rw-r--r-- 1 root root  63655 Feb  6 19:55 item_timefunc.h
+-rw-r--r-- 1 root root   4381 Feb  6 19:55 item_vers.h
+-rw-r--r-- 1 root root  34237 Feb  6 19:55 item_windowfunc.h
+-rw-r--r-- 1 root root   4597 Feb  6 19:55 item_xmlfunc.h
+-rw-r--r-- 1 root root   9757 Feb  6 19:55 json_table.h
+-rw-r--r-- 1 root root   1995 Feb  6 19:55 keycaches.h
+-rw-r--r-- 1 root root   2051 Feb  6 19:55 key.h
+-rw-r--r-- 1 root root  24170 Feb  6 19:55 lex_charset.h
+-rw-r--r-- 1 root root  29976 Feb  6 19:55 lex.h
+-rw-r--r-- 1 root root 144428 Apr 26 11:32 lex_hash.h
+-rw-r--r-- 1 root root   2757 Feb  6 19:55 lex_string.h
+-rw-r--r-- 1 root root   1323 Feb  6 19:55 lex_symbol.h
+-rw-r--r-- 1 root root  42897 Apr 26 11:32 lex_token.h
+-rw-r--r-- 1 root root   6462 Feb  6 19:55 lf.h
+-rw-r--r-- 1 root root   2220 Feb  6 19:55 lock.h
+-rw-r--r-- 1 root root 184974 Feb  6 19:55 log_event.h
+-rw-r--r-- 1 root root  19662 Feb  6 19:55 log_event_old.h
+-rw-r--r-- 1 root root  45324 Feb  6 19:55 log.h
+-rw-r--r-- 1 root root   2024 Feb  6 19:55 log_slow.h
+-rw-r--r-- 1 root root   1277 Feb  6 19:55 mariadb.h
+-rw-r--r-- 1 root root   5872 Feb  6 19:55 maria.h
+-rw-r--r-- 1 root root  37573 Feb  6 19:55 mdl.h
+-rw-r--r-- 1 root root   7106 Feb  6 19:55 mem_root_array.h
+-rw-r--r-- 1 root root   1195 Feb  6 19:55 message.h
+-rw-r--r-- 1 root root  23033 Feb  6 19:55 multi_range_read.h
+-rw-r--r-- 1 root root   2429 Feb  6 19:55 my_alarm.h
+-rw-r--r-- 1 root root   4725 Feb  6 19:55 my_apc.h
+-rw-r--r-- 1 root root   7281 Feb  6 19:55 my_atomic.h
+-rw-r--r-- 1 root root   3043 Feb  6 19:55 my_atomic_wrapper.h
+-rw-r--r-- 1 root root  26811 Feb  6 19:55 my_base.h
+-rw-r--r-- 1 root root   6123 Feb  6 19:55 my_bit.h
+-rw-r--r-- 1 root root   4845 Feb  6 19:55 my_bitmap.h
+-rw-r--r-- 1 root root   2618 Feb  6 19:55 my_check_opt.h
+-rw-r--r-- 1 root root   5697 Feb  6 19:55 my_compare.h
+-rw-r--r-- 1 root root   1713 Feb  6 19:55 my_counter.h
+-rw-r--r-- 1 root root   4132 Feb  6 19:55 my_cpu.h
+-rw-r--r-- 1 root root    904 Feb  6 19:55 my_crypt.h
+-rw-r--r-- 1 root root  14489 Feb  6 19:55 my_decimal.h
+-rw-r--r-- 1 root root   1880 Feb  6 19:55 my_default.h
+-rw-r--r-- 1 root root   4766 Feb  6 19:55 my_handler_errors.h
+-rw-r--r-- 1 root root   4681 Feb  6 19:55 myisamchk.h
+-rw-r--r-- 1 root root  17525 Feb  6 19:55 myisam.h
+-rw-r--r-- 1 root root   4877 Feb  6 19:55 myisammrg.h
+-rw-r--r-- 1 root root  14929 Feb  6 19:55 myisampack.h
+-rw-r--r-- 1 root root  18524 Feb  6 19:55 my_json_writer.h
+-rw-r--r-- 1 root root   1183 Feb  6 19:55 my_libwrap.h
+-rw-r--r-- 1 root root   1486 Feb  6 19:55 my_md5.h
+-rw-r--r-- 1 root root    848 Feb  6 19:55 my_minidump.h
+-rw-r--r-- 1 root root   1438 Feb  6 19:55 my_nosys.h
+-rw-r--r-- 1 root root   8940 Feb  6 19:55 my_rdtsc.h
+-rw-r--r-- 1 root root   1014 Feb  6 19:55 my_rnd.h
+-rw-r--r-- 1 root root   2050 Feb  6 19:55 my_service_manager.h
+-rw-r--r-- 1 root root    204 Feb  6 19:55 mysqld_default_groups.h
+-rw-r--r-- 1 root root  40563 Feb  6 19:55 mysqld.h
+-rw-r--r-- 1 root root   1201 Feb  6 19:55 mysqld_suffix.h
+-rw-r--r-- 1 root root   3852 Feb  6 19:55 my_stack_alloc.h
+-rw-r--r-- 1 root root   3215 Feb  6 19:55 my_stacktrace.h
+-rw-r--r-- 1 root root   3022 Feb  6 19:55 mysys_err.h
+-rw-r--r-- 1 root root  10466 Feb  6 19:55 my_time.h
+-rw-r--r-- 1 root root   3991 Feb  6 19:55 my_tree.h
+-rw-r--r-- 1 root root  69528 Feb  6 19:55 my_uctype.h
+-rw-r--r-- 1 root root   1126 Feb  6 19:55 my_user.h
+-rw-r--r-- 1 root root   4658 Feb  6 19:55 opt_histogram_json.h
+-rw-r--r-- 1 root root  63472 Feb  6 19:55 opt_range.h
+-rw-r--r-- 1 root root  14551 Feb  6 19:55 opt_subselect.h
+-rw-r--r-- 1 root root   3291 Feb  6 19:55 opt_trace_context.h
+-rw-r--r-- 1 root root   8494 Feb  6 19:55 opt_trace.h
+-rw-r--r-- 1 root root   4370 Feb  6 19:55 parse_file.h
+-rw-r--r-- 1 root root   5420 Feb  6 19:55 partition_element.h
+-rw-r--r-- 1 root root  19594 Feb  6 19:55 partition_info.h
+-rw-r--r-- 1 root root   1170 Feb  6 19:55 password.h
+-rw-r--r-- 1 root root   3153 Feb  6 19:55 pfs_file_provider.h
+-rw-r--r-- 1 root root   1385 Feb  6 19:55 pfs_idle_provider.h
+-rw-r--r-- 1 root root   1626 Feb  6 19:55 pfs_memory_provider.h
+-rw-r--r-- 1 root root   1898 Feb  6 19:55 pfs_metadata_provider.h
+-rw-r--r-- 1 root root   2258 Feb  6 19:55 pfs_socket_provider.h
+-rw-r--r-- 1 root root   1556 Feb  6 19:55 pfs_stage_provider.h
+-rw-r--r-- 1 root root   4347 Feb  6 19:55 pfs_statement_provider.h
+-rw-r--r-- 1 root root   2625 Feb  6 19:55 pfs_table_provider.h
+-rw-r--r-- 1 root root   5560 Feb  6 19:55 pfs_thread_provider.h
+-rw-r--r-- 1 root root   2846 Feb  6 19:55 pfs_transaction_provider.h
+-rw-r--r-- 1 root root  28889 Feb  6 19:55 privilege.h
+-rw-r--r-- 1 root root    973 Feb  6 19:55 probes_mysql.h
+-rw-r--r-- 1 root root   6087 Apr 26 11:30 probes_mysql_nodtrace.h
+-rw-r--r-- 1 root root   6509 Feb  6 19:55 procedure.h
+-rw-r--r-- 1 root root  12553 Feb  6 19:55 protocol.h
+drwxr-xr-x 3 root root   4096 Apr 26 12:02 providers
+-rw-r--r-- 1 root root    548 Feb  6 19:55 proxy_protocol.h
+-rw-r--r-- 1 root root   3539 Feb  6 19:55 queues.h
+-rw-r--r-- 1 root root   3147 Feb  6 19:55 records.h
+-rw-r--r-- 1 root root   1585 Feb  6 19:55 repl_failsafe.h
+-rw-r--r-- 1 root root  16106 Feb  6 19:55 replication.h
+-rw-r--r-- 1 root root   1711 Feb  6 19:55 rijndael.h
+-rw-r--r-- 1 root root  15397 Feb  6 19:55 rowid_filter.h
+-rw-r--r-- 1 root root   3357 Feb  6 19:55 rpl_constants.h
+-rw-r--r-- 1 root root   4752 Feb  6 19:55 rpl_filter.h
+-rw-r--r-- 1 root root  29027 Feb  6 19:55 rpl_gtid.h
+-rw-r--r-- 1 root root   9653 Feb  6 19:55 rpl_injector.h
+-rw-r--r-- 1 root root  15803 Feb  6 19:55 rpl_mi.h
+-rw-r--r-- 1 root root  16289 Feb  6 19:55 rpl_parallel.h
+-rw-r--r-- 1 root root   1585 Feb  6 19:55 rpl_record.h
+-rw-r--r-- 1 root root   1407 Feb  6 19:55 rpl_record_old.h
+-rw-r--r-- 1 root root   3687 Feb  6 19:55 rpl_reporting.h
+-rw-r--r-- 1 root root  34164 Feb  6 19:55 rpl_rli.h
+-rw-r--r-- 1 root root   3177 Feb  6 19:55 rpl_tblmap.h
+-rw-r--r-- 1 root root   9630 Feb  6 19:55 rpl_utility.h
+-rw-r--r-- 1 root root   3199 Feb  6 19:55 scheduler.h
+-rw-r--r-- 1 root root   1803 Feb  6 19:55 scope.h
+-rw-r--r-- 1 root root   2228 Feb  6 19:55 select_handler.h
+-rw-r--r-- 1 root root   2287 Feb  6 19:55 semisync.h
+-rw-r--r-- 1 root root   5864 Feb  6 19:55 semisync_master_ack_receiver.h
+-rw-r--r-- 1 root root  23238 Feb  6 19:55 semisync_master.h
+-rw-r--r-- 1 root root   3547 Feb  6 19:55 semisync_slave.h
+-rw-r--r-- 1 root root   2238 Feb  6 19:55 service_versions.h
+-rw-r--r-- 1 root root  14194 Feb  6 19:55 session_tracker.h
+-rw-r--r-- 1 root root  16331 Feb  6 19:55 set_var.h
+-rw-r--r-- 1 root root  12225 Feb  6 19:55 slave.h
+-rw-r--r-- 1 root root     67 Feb  6 19:55 source_revision.h
+-rw-r--r-- 1 root root   3923 Feb  6 19:55 span.h
+-rw-r--r-- 1 root root  21236 Feb  6 19:55 spatial.h
+-rw-r--r-- 1 root root   2045 Feb  6 19:55 sp_cache.h
+-rw-r--r-- 1 root root  22277 Feb  6 19:55 sp.h
+-rw-r--r-- 1 root root  63082 Feb  6 19:55 sp_head.h
+-rw-r--r-- 1 root root  24161 Feb  6 19:55 sp_pcontext.h
+-rw-r--r-- 1 root root  14441 Feb  6 19:55 sp_rcontext.h
+-rw-r--r-- 1 root root  14108 Feb  6 19:55 sql_acl.h
+-rw-r--r-- 1 root root   2827 Feb  6 19:55 sql_admin.h
+-rw-r--r-- 1 root root   1732 Feb  6 19:55 sql_alloc.h
+-rw-r--r-- 1 root root  12728 Feb  6 19:55 sql_alter.h
+-rw-r--r-- 1 root root  11179 Feb  6 19:55 sql_analyse.h
+-rw-r--r-- 1 root root  11811 Feb  6 19:55 sql_analyze_stmt.h
+-rw-r--r-- 1 root root   6819 Feb  6 19:55 sql_array.h
+-rw-r--r-- 1 root root  13943 Feb  6 19:55 sql_audit.h
+-rw-r--r-- 1 root root  25651 Feb  6 19:55 sql_base.h
+-rw-r--r-- 1 root root   9528 Feb  6 19:55 sql_basic_types.h
+-rw-r--r-- 1 root root    895 Feb  6 19:55 sql_binlog.h
+-rw-r--r-- 1 root root   7838 Feb  6 19:55 sql_bitmap.h
+-rw-r--r-- 1 root root   1812 Feb  6 19:55 sql_bootstrap.h
+-rw-r--r-- 1 root root  21604 Feb  6 19:55 sql_cache.h
+-rw-r--r-- 1 root root   1542 Feb  6 19:55 sql_callback.h
+-rw-r--r-- 1 root root 256001 Feb  6 19:55 sql_class.h
+-rw-r--r-- 1 root root   9098 Feb  6 19:55 sql_cmd.h
+-rw-r--r-- 1 root root   4079 Feb  6 19:55 sql_connect.h
+-rw-r--r-- 1 root root  10978 Feb  6 19:55 sql_const.h
+-rw-r--r-- 1 root root   1421 Feb  6 19:55 sql_crypt.h
+-rw-r--r-- 1 root root  16402 Feb  6 19:55 sql_cte.h
+-rw-r--r-- 1 root root   2316 Feb  6 19:55 sql_cursor.h
+-rw-r--r-- 1 root root   2440 Feb  6 19:55 sql_db.h
+-rw-r--r-- 1 root root   5640 Feb  6 19:55 sql_debug.h
+-rw-r--r-- 1 root root   1343 Feb  6 19:55 sql_delete.h
+-rw-r--r-- 1 root root   1289 Feb  6 19:55 sql_derived.h
+-rw-r--r-- 1 root root   3819 Feb  6 19:55 sql_digest.h
+-rw-r--r-- 1 root root   1567 Feb  6 19:55 sql_digest_stream.h
+-rw-r--r-- 1 root root    954 Feb  6 19:55 sql_do.h
+-rw-r--r-- 1 root root  38932 Feb  6 19:55 sql_error.h
+-rw-r--r-- 1 root root  28329 Feb  6 19:55 sql_explain.h
+-rw-r--r-- 1 root root   4315 Feb  6 19:55 sql_expression_cache.h
+-rw-r--r-- 1 root root   7863 Feb  6 19:55 sql_get_diagnostics.h
+-rw-r--r-- 1 root root   2910 Feb  6 19:55 sql_handler.h
+-rw-r--r-- 1 root root    995 Feb  6 19:55 sql_help.h
+-rw-r--r-- 1 root root   3646 Feb  6 19:55 sql_hset.h
+-rw-r--r-- 1 root root   2489 Feb  6 19:55 sql_insert.h
+-rw-r--r-- 1 root root   8487 Feb  6 19:55 sql_i_s.h
+-rw-r--r-- 1 root root  48093 Feb  6 19:55 sql_join_cache.h
+-rw-r--r-- 1 root root 168653 Feb  6 19:55 sql_lex.h
+-rw-r--r-- 1 root root   9471 Feb  6 19:55 sql_lifo_buffer.h
+-rw-r--r-- 1 root root   2902 Feb  6 19:55 sql_limit.h
+-rw-r--r-- 1 root root  22065 Feb  6 19:55 sql_list.h
+-rw-r--r-- 1 root root   1276 Feb  6 19:55 sql_load.h
+-rw-r--r-- 1 root root   2701 Feb  6 19:55 sql_locale.h
+-rw-r--r-- 1 root root    960 Feb  6 19:55 sql_manager.h
+-rw-r--r-- 1 root root   6735 Feb  6 19:55 sql_mode.h
+-rw-r--r-- 1 root root   8471 Feb  6 19:55 sql_parse.h
+-rw-r--r-- 1 root root   5821 Feb  6 19:55 sql_partition_admin.h
+-rw-r--r-- 1 root root  12718 Feb  6 19:55 sql_partition.h
+-rw-r--r-- 1 root root   7732 Feb  6 19:55 sql_plist.h
+-rw-r--r-- 1 root root   2237 Feb  6 19:55 sql_plugin_compat.h
+-rw-r--r-- 1 root root   7567 Feb  6 19:55 sql_plugin.h
+-rw-r--r-- 1 root root  11401 Feb  6 19:55 sql_prepare.h
+-rw-r--r-- 1 root root  17749 Feb  6 19:55 sql_priv.h
+-rw-r--r-- 1 root root   7699 Feb  6 19:55 sql_profile.h
+-rw-r--r-- 1 root root   1036 Feb  6 19:55 sql_reload.h
+-rw-r--r-- 1 root root    982 Feb  6 19:55 sql_rename.h
+-rw-r--r-- 1 root root   3035 Feb  6 19:55 sql_repl.h
+-rw-r--r-- 1 root root   2010 Feb  6 19:55 sql_schema.h
+-rw-r--r-- 1 root root  86812 Feb  6 19:55 sql_select.h
+-rw-r--r-- 1 root root   5060 Feb  6 19:55 sql_sequence.h
+-rw-r--r-- 1 root root   1777 Feb  6 19:55 sql_servers.h
+-rw-r--r-- 1 root root   9830 Feb  6 19:55 sql_show.h
+-rw-r--r-- 1 root root   3340 Feb  6 19:55 sql_signal.h
+-rw-r--r-- 1 root root  21988 Feb  6 19:55 sql_sort.h
+-rw-r--r-- 1 root root  16349 Feb  6 19:55 sql_statistics.h
+-rw-r--r-- 1 root root  34391 Feb  6 19:55 sql_string.h
+-rw-r--r-- 1 root root  10010 Feb  6 19:55 sql_table.h
+-rw-r--r-- 1 root root   1589 Feb  6 19:55 sql_test.h
+-rw-r--r-- 1 root root   8374 Feb  6 19:55 sql_time.h
+-rw-r--r-- 1 root root  12137 Feb  6 19:55 sql_trigger.h
+-rw-r--r-- 1 root root   2057 Feb  6 19:55 sql_truncate.h
+-rw-r--r-- 1 root root   2353 Feb  6 19:55 sql_tvc.h
+-rw-r--r-- 1 root root  63517 Feb  6 19:55 sql_type_fixedbin.h
+-rw-r--r-- 1 root root   5496 Feb  6 19:55 sql_type_fixedbin_storage.h
+-rw-r--r-- 1 root root  18751 Feb  6 19:55 sql_type_geom.h
+-rw-r--r-- 1 root root 290395 Feb  6 19:55 sql_type.h
+-rw-r--r-- 1 root root   5745 Feb  6 19:55 sql_type_int.h
+-rw-r--r-- 1 root root   6155 Feb  6 19:55 sql_type_json.h
+-rw-r--r-- 1 root root   1257 Feb  6 19:55 sql_type_real.h
+-rw-r--r-- 1 root root   1629 Feb  6 19:55 sql_type_string.h
+-rw-r--r-- 1 root root   4537 Feb  6 19:55 sql_udf.h
+-rw-r--r-- 1 root root   1068 Feb  6 19:55 sql_union.h
+-rw-r--r-- 1 root root   1923 Feb  6 19:55 sql_update.h
+-rw-r--r-- 1 root root   2470 Feb  6 19:55 sql_view.h
+-rw-r--r-- 1 root root   6797 Feb  6 19:55 sql_window.h
+-rw-r--r-- 1 root root   3101 Feb  6 19:55 ssl_compat.h
+-rw-r--r-- 1 root root   2275 Feb  6 19:55 strfunc.h
+-rw-r--r-- 1 root root  29175 Feb  6 19:55 structs.h
+-rw-r--r-- 1 root root   2667 Feb  6 19:55 sys_vars_shared.h
+-rw-r--r-- 1 root root   4211 Feb  6 19:55 table_cache.h
+-rw-r--r-- 1 root root 114791 Feb  6 19:55 table.h
+-rw-r--r-- 1 root root   5639 Feb  6 19:55 t_ctype.h
+-rw-r--r-- 1 root root   2932 Feb  6 19:55 thr_alarm.h
+-rw-r--r-- 1 root root   5905 Feb  6 19:55 thread_cache.h
+-rw-r--r-- 1 root root   3969 Feb  6 19:55 threadpool_generic.h
+-rw-r--r-- 1 root root   4767 Feb  6 19:55 threadpool.h
+-rw-r--r-- 1 root root   2290 Feb  6 19:55 threadpool_winsockets.h
+-rw-r--r-- 1 root root   7350 Feb  6 19:55 thr_lock.h
+-rw-r--r-- 1 root root   1202 Feb  6 19:55 thr_malloc.h
+-rw-r--r-- 1 root root   1563 Feb  6 19:55 thr_timer.h
+-rw-r--r-- 1 root root   1466 Feb  6 19:55 transaction.h
+-rw-r--r-- 1 root root   5014 Feb  6 19:55 tzfile.h
+-rw-r--r-- 1 root root   3382 Feb  6 19:55 tztime.h
+-rw-r--r-- 1 root root   4202 Feb  6 19:55 uniques.h
+-rw-r--r-- 1 root root   7716 Feb  6 19:55 unireg.h
+-rw-r--r-- 1 root root   2526 Feb  6 19:55 vers_string.h
+-rw-r--r-- 1 root root   9913 Feb  6 19:55 violite.h
+-rw-r--r-- 1 root root   4532 Feb  6 19:55 waiting_threads.h
+-rw-r--r-- 1 root root   1218 Feb  6 19:55 welcome_copyright_notice.h
+-rw-r--r-- 1 root root   6019 Feb  6 19:55 winservice.h
+-rw-r--r-- 1 root root   6460 Feb  6 19:55 win_tzname_data.h
+-rw-r--r-- 1 root root   1565 Feb  6 19:55 wqueue.h
+-rw-r--r-- 1 root root   1035 Feb  6 19:55 wsrep_allowlist_service.h
+-rw-r--r-- 1 root root   1933 Feb  6 19:55 wsrep_applier.h
+-rw-r--r-- 1 root root   3441 Feb  6 19:55 wsrep_binlog.h
+-rw-r--r-- 1 root root   2312 Feb  6 19:55 wsrep_client_service.h
+-rw-r--r-- 1 root root   1566 Feb  6 19:55 wsrep_client_state.h
+-rw-r--r-- 1 root root   1452 Feb  6 19:55 wsrep_condition_variable.h
+-rw-r--r-- 1 root root   3308 Feb  6 19:55 wsrep.h
+-rw-r--r-- 1 root root   4678 Feb  6 19:55 wsrep_high_priority_service.h
+-rw-r--r-- 1 root root   1212 Feb  6 19:55 wsrep_mutex.h
+-rw-r--r-- 1 root root   1227 Feb  6 19:55 wsrep_mysqld_c.h
+-rw-r--r-- 1 root root  21235 Feb  6 19:55 wsrep_mysqld.h
+-rw-r--r-- 1 root root   1922 Feb  6 19:55 wsrep_on.h
+-rw-r--r-- 1 root root   1667 Feb  6 19:55 wsrep_priv.h
+-rw-r--r-- 1 root root   5118 Feb  6 19:55 wsrep_schema.h
+-rw-r--r-- 1 root root   3267 Feb  6 19:55 wsrep_server_service.h
+-rw-r--r-- 1 root root   2491 Feb  6 19:55 wsrep_server_state.h
+-rw-r--r-- 1 root root   3951 Feb  6 19:55 wsrep_sst.h
+-rw-r--r-- 1 root root   1816 Feb  6 19:55 wsrep_status.h
+-rw-r--r-- 1 root root   1728 Feb  6 19:55 wsrep_storage_service.h
+-rw-r--r-- 1 root root   9451 Feb  6 19:55 wsrep_thd.h
+-rw-r--r-- 1 root root  16727 Feb  6 19:55 wsrep_trans_observer.h
+-rw-r--r-- 1 root root   1110 Feb  6 19:55 wsrep_types.h
+-rw-r--r-- 1 root root   9661 Feb  6 19:55 wsrep_utils.h
+-rw-r--r-- 1 root root   4346 Feb  6 19:55 wsrep_var.h
+-rw-r--r-- 1 root root   1449 Feb  6 19:55 wsrep_xid.h
+-rw-r--r-- 1 root root   1817 Feb  6 19:55 xa.h
+
+mariadb/include/mysql/server/private/atomic:
+total 28
+drwxr-xr-x 2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 5 root root 12288 Apr 26 12:02 ..
+-rw-r--r-- 1 root root  3809 Feb  6 19:55 gcc_builtins.h
+-rw-r--r-- 1 root root  3732 Feb  6 19:55 generic-msvc.h
+-rw-r--r-- 1 root root  3157 Feb  6 19:55 solaris.h
+
+mariadb/include/mysql/server/private/data:
+total 16
+drwxr-xr-x 2 root root  4096 Jan  1  1970 .
+drwxr-xr-x 5 root root 12288 Apr 26 12:02 ..
+
+mariadb/include/mysql/server/private/providers:
+total 36
+drwxr-xr-x 3 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 5 root root 12288 Apr 26 12:02 ..
+-rw-r--r-- 1 root root  4095 Feb  6 19:55 bzlib.h
+-rw-r--r-- 1 root root  1659 Feb  6 19:55 lz4.h
+-rw-r--r-- 1 root root  2797 Feb  6 19:55 lzma.h
+drwxr-xr-x 2 root root  4096 Apr 26 12:02 lzo
+-rw-r--r-- 1 root root  2249 Feb  6 19:55 snappy-c.h
+
+mariadb/include/mysql/server/private/providers/lzo:
+total 12
+drwxr-xr-x 2 root root 4096 Apr 26 12:02 .
+drwxr-xr-x 3 root root 4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root 1620 Feb  6 19:55 lzo1x.h
+
+mariadb/lib:
+total 336
+drwxr-xr-x  3 root root   4096 May  8 15:02 .
+drwxr-xr-x 12 root root   4096 May  8 15:02 ..
+lrwxrwxrwx  1 root root     15 Apr 26 11:50 libmariadb.so -> libmariadb.so.3
+-rw-r--r--  1 root root 328968 Apr 26 11:32 libmariadb.so.3
+lrwxrwxrwx  1 root root     15 Apr 26 11:50 libmysqlclient_r.so -> libmariadb.so.3
+lrwxrwxrwx  1 root root     15 Apr 26 11:50 libmysqlclient.so -> libmariadb.so.3
+drwxr-xr-x  2 root root   4096 Apr 26 12:02 pkgconfig
+lrwxrwxrwx  1 root root     27 May  8 15:02 plugin -> /opt/bitnami/mariadb/plugin
+
+mariadb/lib/pkgconfig:
+total 16
+drwxr-xr-x 2 root root 4096 Apr 26 12:02 .
+drwxr-xr-x 3 root root 4096 May  8 15:02 ..
+-rw-r--r-- 1 root root  483 Apr 26 11:31 libmariadb.pc
+-rw-r--r-- 1 root root  780 Apr 26 11:31 mariadb.pc
+
+mariadb/licenses:
+total 32
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 12 root root  4096 May  8 15:02 ..
+-rw-r--r--  1 root root   102 Apr 26 11:50 gpl-source-links.txt
+-rw-r--r--  1 root root 17987 Apr 26 11:50 mariadb-10.11.2.txt
+
+mariadb/logs:
+total 8
+drwxrwxr-x  2 root root 4096 May  8 15:02 .
+drwxr-xr-x 12 root root 4096 May  8 15:02 ..
+
+mariadb/plugin:
+total 15748
+drwxr-xr-x  3 root root    4096 Apr 26 12:02 .
+drwxr-xr-x 12 root root    4096 May  8 15:02 ..
+-rw-r--r--  1 root root   14560 Apr 26 11:43 adt_null.so
+-rw-r--r--  1 root root   14184 Apr 26 11:43 auth_0x0100.so
+-rw-r--r--  1 root root   70752 Apr 26 11:43 auth_ed25519.so
+-rw-r--r--  1 root root   14608 Apr 26 11:43 auth_pam.so
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 auth_pam_tool_dir
+-rw-r--r--  1 root root   14600 Apr 26 11:43 auth_pam_v1.so
+-rw-r--r--  1 root root   14696 Apr 26 11:43 auth_test_plugin.so
+-rw-r--r--  1 root root   14272 Apr 26 11:31 caching_sha2_password.so
+-rw-r--r--  1 root root   70528 Apr 26 11:31 client_ed25519.so
+-rw-r--r--  1 root root     227 Feb  6 19:55 daemon_example.ini
+-rw-r--r--  1 root root   14336 Apr 26 11:52 debug_key_management.so
+-rw-r--r--  1 root root   14600 Apr 26 11:43 dialog_examples.so
+-rw-r--r--  1 root root   14272 Apr 26 11:31 dialog.so
+-rw-r--r--  1 root root   14384 Apr 26 11:52 disks.so
+-rw-r--r--  1 root root   14480 Apr 26 11:52 example_key_management.so
+-rw-r--r--  1 root root   22960 Apr 26 11:52 file_key_management.so
+-rw-r--r--  1 root root   51432 Apr 26 11:52 func_test.so
+-rw-r--r--  1 root root 1663072 Apr 26 11:52 ha_connect.so
+-rw-r--r--  1 root root   53032 Apr 26 11:52 ha_example.so
+-rw-r--r--  1 root root   80168 Apr 26 11:52 ha_federated.so
+-rw-r--r--  1 root root  121232 Apr 26 11:52 ha_federatedx.so
+-rw-r--r--  1 root root 6017216 Apr 26 11:52 ha_mroonga.so
+-rw-r--r--  1 root root  147080 Apr 26 11:52 handlersocket.so
+-rw-r--r--  1 root root 5773528 Apr 26 11:52 ha_rocksdb.so
+-rw-r--r--  1 root root  125352 Apr 26 11:52 ha_sphinx.so
+-rw-r--r--  1 root root 1084984 Apr 26 11:52 ha_spider.so
+-rw-r--r--  1 root root   47496 Apr 26 11:52 ha_test_sql_discovery.so
+-rw-r--r--  1 root root   14392 Apr 26 11:52 libdaemon_example.so
+-rw-r--r--  1 root root   14384 Apr 26 11:52 locales.so
+-rw-r--r--  1 root root   14464 Apr 26 11:52 metadata_lock_info.so
+-rw-r--r--  1 root root   14912 Apr 26 11:43 mypluglib.so
+-rw-r--r--  1 root root   14272 Apr 26 11:31 mysql_clear_password.so
+-rw-r--r--  1 root root   14520 Apr 26 11:43 password_reuse_check.so
+-rw-r--r--  1 root root   14272 Apr 26 11:43 qa_auth_client.so
+-rw-r--r--  1 root root   14536 Apr 26 11:43 qa_auth_interface.so
+-rw-r--r--  1 root root   14440 Apr 26 11:43 qa_auth_server.so
+-rw-r--r--  1 root root   18480 Apr 26 11:52 query_cache_info.so
+-rw-r--r--  1 root root   14776 Apr 26 11:52 query_response_time.so
+-rw-r--r--  1 root root   63808 Apr 26 11:43 server_audit.so
+-rw-r--r--  1 root root   14272 Apr 26 11:31 sha256_password.so
+-rw-r--r--  1 root root   14728 Apr 26 11:43 simple_password_check.so
+-rw-r--r--  1 root root   14856 Apr 26 11:43 sql_errlog.so
+-rw-r--r--  1 root root   14544 Apr 26 11:43 test_sql_service.so
+-rw-r--r--  1 root root   63936 Apr 26 11:52 test_versioning.so
+-rw-r--r--  1 root root   71936 Apr 26 11:52 type_mysql_json.so
+-rw-r--r--  1 root root   92528 Apr 26 11:52 type_test.so
+-rw-r--r--  1 root root   22776 Apr 26 11:52 wsrep_info.so
+
+mariadb/plugin/auth_pam_tool_dir:
+total 24
+drwxr-xr-x 2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 3 root root  4096 Apr 26 12:02 ..
+-rwxr-xr-x 1 root root 14312 Apr 26 11:31 auth_pam_tool
+
+mariadb/sbin:
+total 25048
+drwxr-xr-x  2 root root     4096 Apr 26 12:02 .
+drwxr-xr-x 12 root root     4096 May  8 15:02 ..
+-rwxr-xr-x  1 root root 25637096 Apr 26 11:52 mariadbd
+lrwxrwxrwx  1 root root        8 Apr 26 11:50 mysqld -> mariadbd
+
+mariadb/share:
+total 3708
+drwxr-xr-x 34 root root    4096 Apr 26 12:02 .
+drwxr-xr-x 12 root root    4096 May  8 15:02 ..
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 aclocal
+-rwxr-xr-x  1 root root    1155 Apr 26 11:31 binary-configure
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 bulgarian
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 charsets
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 chinese
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 czech
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 danish
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 dutch
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 english
+-rw-r--r--  1 root root  718788 Feb  6 19:55 errmsg-utf8.txt
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 estonian
+-rw-r--r--  1 root root 2174886 Feb  6 19:55 fill_help_tables.sql
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 french
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 german
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 greek
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 groonga
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 groonga-normalizer-mysql
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 hindi
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 hungarian
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 italian
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 japanese
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 korean
+-rw-r--r--  1 root root    1470 Feb  6 19:55 magic
+-rw-r--r--  1 root root    1683 Apr 26 11:31 maria_add_gis_sp_bootstrap.sql
+-rw-r--r--  1 root root    1705 Apr 26 11:31 maria_add_gis_sp.sql
+-rwxr-xr-x  1 root root    1912 Apr 26 11:31 mariadb.logrotate
+-rwxr-xr-x  1 root root    6928 Apr 26 11:31 mini-benchmark
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 mroonga
+-rwxr-xr-x  1 root root    1564 Apr 26 11:31 mysqld_multi.server
+-rw-r--r--  1 root root    1955 Feb  6 19:55 mysql_performance_tables.sql
+-rwxr-xr-x  1 root root   12388 Apr 26 11:31 mysql.server
+-rw-r--r--  1 root root  619228 Apr 26 11:31 mysql_sys_schema.sql
+-rw-r--r--  1 root root    3159 Feb  6 19:55 mysql_system_tables_data.sql
+-rw-r--r--  1 root root   30040 Feb  6 19:55 mysql_system_tables.sql
+-rw-r--r--  1 root root   10413 Feb  6 19:55 mysql_test_data_timezone.sql
+-rw-r--r--  1 root root    1775 Feb  6 19:55 mysql_test_db.sql
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 norwegian
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 norwegian-ny
+-rw-r--r--  1 root root   14152 Apr 26 11:31 pam_user_map.so
+drwxr-xr-x  4 root root    4096 Apr 26 12:02 policy
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 polish
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 portuguese
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 romanian
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 russian
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 serbian
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 slovak
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 spanish
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 swedish
+drwxr-xr-x  2 root root    4096 Apr 26 12:02 ukrainian
+-rw-r--r--  1 root root     247 Feb  6 19:55 user_map.conf
+-rw-r--r--  1 root root    3474 Apr 26 11:31 wsrep.cnf
+-rwxr-xr-x  1 root root    4979 Apr 26 11:31 wsrep_notify
+
+mariadb/share/aclocal:
+total 16
+drwxr-xr-x  2 root root 4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root 4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 4221 Feb  6 19:55 mysql.m4
+
+mariadb/share/bulgarian:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 78630 Apr 26 11:36 errmsg.sys
+
+mariadb/share/charsets:
+total 244
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root  5526 Feb  6 19:55 armscii8.xml
+-rw-r--r--  1 root root  5512 Feb  6 19:55 ascii.xml
+-rw-r--r--  1 root root  8241 Feb  6 19:55 cp1250.xml
+-rw-r--r--  1 root root  8365 Feb  6 19:55 cp1251.xml
+-rw-r--r--  1 root root  5569 Feb  6 19:55 cp1256.xml
+-rw-r--r--  1 root root  8902 Feb  6 19:55 cp1257.xml
+-rw-r--r--  1 root root  5506 Feb  6 19:55 cp850.xml
+-rw-r--r--  1 root root  5528 Feb  6 19:55 cp852.xml
+-rw-r--r--  1 root root  5613 Feb  6 19:55 cp866.xml
+-rw-r--r--  1 root root  6529 Feb  6 19:55 dec8.xml
+-rw-r--r--  1 root root  5516 Feb  6 19:55 geostd8.xml
+-rw-r--r--  1 root root  5728 Feb  6 19:55 greek.xml
+-rw-r--r--  1 root root  5517 Feb  6 19:55 hebrew.xml
+-rw-r--r--  1 root root  5502 Feb  6 19:55 hp8.xml
+-rw-r--r--  1 root root 23509 Feb  6 19:55 Index.xml
+-rw-r--r--  1 root root  5529 Feb  6 19:55 keybcs2.xml
+-rw-r--r--  1 root root  5510 Feb  6 19:55 koi8r.xml
+-rw-r--r--  1 root root  6532 Feb  6 19:55 koi8u.xml
+-rw-r--r--  1 root root  9816 Feb  6 19:55 latin1.xml
+-rw-r--r--  1 root root  7238 Feb  6 19:55 latin2.xml
+-rw-r--r--  1 root root  5515 Feb  6 19:55 latin5.xml
+-rw-r--r--  1 root root  7438 Feb  6 19:55 latin7.xml
+-rw-r--r--  1 root root  8047 Feb  6 19:55 macce.xml
+-rw-r--r--  1 root root  8058 Feb  6 19:55 macroman.xml
+-rw-r--r--  1 root root  1749 Feb  6 19:55 README
+-rw-r--r--  1 root root  6530 Feb  6 19:55 swe7.xml
+
+mariadb/share/chinese:
+total 76
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 66797 Apr 26 11:36 errmsg.sys
+
+mariadb/share/czech:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 79386 Apr 26 11:36 errmsg.sys
+
+mariadb/share/danish:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 79354 Apr 26 11:36 errmsg.sys
+
+mariadb/share/dutch:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 80330 Apr 26 11:36 errmsg.sys
+
+mariadb/share/english:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 78342 Apr 26 11:36 errmsg.sys
+
+mariadb/share/estonian:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 78874 Apr 26 11:36 errmsg.sys
+
+mariadb/share/french:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 80007 Apr 26 11:36 errmsg.sys
+
+mariadb/share/german:
+total 92
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 85984 Apr 26 11:36 errmsg.sys
+
+mariadb/share/greek:
+total 92
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 85153 Apr 26 11:36 errmsg.sys
+
+mariadb/share/groonga:
+total 40
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 26530 Feb  6 19:55 COPYING
+-rw-r--r--  1 root root  1796 Feb  6 19:55 README.md
+
+mariadb/share/groonga-normalizer-mysql:
+total 44
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 25383 Feb  6 19:55 lgpl-2.0.txt
+-rw-r--r--  1 root root  7414 Feb  6 19:55 README.md
+
+mariadb/share/hindi:
+total 96
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 89832 Apr 26 11:36 errmsg.sys
+
+mariadb/share/hungarian:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 79227 Apr 26 11:36 errmsg.sys
+
+mariadb/share/italian:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 80354 Apr 26 11:36 errmsg.sys
+
+mariadb/share/japanese:
+total 92
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 85492 Apr 26 11:36 errmsg.sys
+
+mariadb/share/korean:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 81401 Apr 26 11:36 errmsg.sys
+
+mariadb/share/mroonga:
+total 48
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root   182 Feb  6 19:55 AUTHORS
+-rw-r--r--  1 root root 26435 Feb  6 19:55 COPYING
+-rw-r--r--  1 root root  1120 Apr 26 11:31 install.sql
+-rw-r--r--  1 root root   391 Feb  6 19:55 uninstall.sql
+
+mariadb/share/norwegian:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 78626 Apr 26 11:36 errmsg.sys
+
+mariadb/share/norwegian-ny:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 78655 Apr 26 11:36 errmsg.sys
+
+mariadb/share/policy:
+total 16
+drwxr-xr-x  4 root root 4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root 4096 Apr 26 12:02 ..
+drwxr-xr-x  2 root root 4096 Apr 26 12:02 apparmor
+drwxr-xr-x  2 root root 4096 Apr 26 12:02 selinux
+
+mariadb/share/policy/apparmor:
+total 20
+drwxr-xr-x 2 root root 4096 Apr 26 12:02 .
+drwxr-xr-x 4 root root 4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root  256 Feb  6 19:55 README
+-rw-r--r-- 1 root root 3541 Feb  6 19:55 usr.sbin.mysqld
+-rw-r--r-- 1 root root  239 Feb  6 19:55 usr.sbin.mysqld.local
+
+mariadb/share/policy/selinux:
+total 24
+drwxr-xr-x 2 root root 4096 Apr 26 12:02 .
+drwxr-xr-x 4 root root 4096 Apr 26 12:02 ..
+-rw-r--r-- 1 root root  640 Feb  6 19:55 mariadb-server.fc
+-rw-r--r-- 1 root root 3988 Feb  6 19:55 mariadb-server.te
+-rw-r--r-- 1 root root  205 Feb  6 19:55 mariadb.te
+-rw-r--r-- 1 root root  850 Feb  6 19:55 README
+
+mariadb/share/polish:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 79259 Apr 26 11:36 errmsg.sys
+
+mariadb/share/portuguese:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 81315 Apr 26 11:36 errmsg.sys
+
+mariadb/share/romanian:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 80050 Apr 26 11:36 errmsg.sys
+
+mariadb/share/russian:
+total 100
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 93726 Apr 26 11:36 errmsg.sys
+
+mariadb/share/serbian:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 80752 Apr 26 11:36 errmsg.sys
+
+mariadb/share/slovak:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 79083 Apr 26 11:36 errmsg.sys
+
+mariadb/share/spanish:
+total 100
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 93529 Apr 26 11:36 errmsg.sys
+
+mariadb/share/swedish:
+total 88
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 79353 Apr 26 11:36 errmsg.sys
+
+mariadb/share/ukrainian:
+total 96
+drwxr-xr-x  2 root root  4096 Apr 26 12:02 .
+drwxr-xr-x 34 root root  4096 Apr 26 12:02 ..
+-rw-r--r--  1 root root 89003 Apr 26 11:36 errmsg.sys
+
+mariadb/tmp:
+total 8
+drwxrwxr-x  2 root root 4096 May  8 15:02 .
+drwxr-xr-x 12 root root 4096 May  8 15:02 ..

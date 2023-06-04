@@ -1,0 +1,1142 @@
+php:
+total 56
+drwxr-xr-x 12 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 13 root root 4096 May  8 15:02 ..
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 bin
+drwxrwxr-x  5 root root 4096 May  8 15:02 etc
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 include
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 lib
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 licenses
+drwxrwxr-x  2 root root 4096 Jan  1  1970 logs
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 php
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 sbin
+-rw-r--r--  1 root root 6138 Apr 21 18:29 .spdx-php.spdx
+drwxrwxr-x  2 root root 4096 Jan  1  1970 tmp
+drwxr-xr-x  4 root root 4096 Apr 21 18:39 var
+
+php/bin:
+total 64372
+drwxr-xr-x  2 root root     4096 Apr 21 18:39 .
+drwxr-xr-x 12 root root     4096 Apr 21 18:39 ..
+lrwxrwxrwx  1 root root       13 Apr 21 18:29 composer -> composer.phar
+-rwxr-xr-x  1 root root  2834111 Apr 21 18:29 composer.phar
+-rwxr-xr-x  1 root root      847 Apr 21 18:28 pear
+-rwxr-xr-x  1 root root      868 Apr 21 18:28 peardev
+-rwxr-xr-x  1 root root      781 Apr 21 18:28 pecl
+lrwxrwxrwx  1 root root        9 Apr 21 18:28 phar -> phar.phar
+-rwxr-xr-x  1 root root    15386 Apr 21 18:28 phar.phar
+-rwxr-xr-x  1 root root 21008440 Apr 21 18:29 php
+-rwxr-xr-x  1 root root 21008104 Apr 21 18:29 php-cgi
+-rwxr-xr-x  1 root root     3747 Apr 21 18:28 php-config
+-rwxr-xr-x  1 root root 21008736 Apr 21 18:29 phpdbg
+-rwxr-xr-x  1 root root     4549 Apr 21 18:28 phpize
+
+php/etc:
+total 264
+drwxrwxr-x  5 root    root  4096 May  8 15:02 .
+drwxr-xr-x 12 root    root  4096 Apr 21 18:39 ..
+-rw-rw-r--  1 root    root    64 Apr 21 18:28 common.conf
+drwxrwxr-x  2 root    root  4096 Jan  1  1970 conf.d
+-rw-rw-r--  1 root    root    17 Apr 21 18:28 environment.conf
+drwxr-xr-x  2 root    root  4096 May  8 15:02 memory
+lrwxrwxrwx  1 root    root    24 May  8 15:02 memory.conf -> memory/memory-micro.conf
+-rw-rw-r--  1 root    root  1235 Apr 21 18:28 pear.conf
+-rw-rw-r--  1 root    root  5404 Apr 21 18:28 php-fpm.conf
+-rw-rw-r--  1 root    root  5387 Apr 21 18:28 php-fpm.conf.default
+drwxrwxr-x  2 root    root  4096 Apr 21 18:39 php-fpm.d
+-rw-rw-r--  1 bitnami root 73114 May  8 15:02 php.ini
+-rw-rw-r--  1 root    root 72384 Apr 21 18:28 php.ini-development
+-rw-rw-r--  1 root    root 72530 Apr 21 18:28 php.ini-production
+
+php/etc/conf.d:
+total 8
+drwxrwxr-x 2 root root 4096 Jan  1  1970 .
+drwxrwxr-x 5 root root 4096 May  8 15:02 ..
+
+php/etc/memory:
+total 32
+drwxr-xr-x 2 root root 4096 May  8 15:02 .
+drwxrwxr-x 5 root root 4096 May  8 15:02 ..
+-rw-r--r-- 1 root root  211 May  8 15:02 memory-2xlarge.conf
+-rw-r--r-- 1 root root  208 May  8 15:02 memory-large.conf
+-rw-r--r-- 1 root root  207 May  8 15:02 memory-medium.conf
+-rw-r--r-- 1 root root  207 May  8 15:02 memory-micro.conf
+-rw-r--r-- 1 root root  207 May  8 15:02 memory-small.conf
+-rw-r--r-- 1 root root  211 May  8 15:02 memory-xlarge.conf
+
+php/etc/php-fpm.d:
+total 36
+drwxrwxr-x 2 root root  4096 Apr 21 18:39 .
+drwxrwxr-x 5 root root  4096 May  8 15:02 ..
+-rw-rw-r-- 1 root root   313 May  8 15:02 www.conf
+-rw-rw-r-- 1 root root 20559 Apr 21 18:28 www.conf.default
+
+php/include:
+total 12
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 12 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  8 root root 4096 Apr 21 18:39 php
+
+php/include/php:
+total 32
+drwxr-xr-x  8 root root 4096 Apr 21 18:39 .
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ext
+drwxr-xr-x  2 root root 4096 Jan  1  1970 include
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 main
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 sapi
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 TSRM
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 Zend
+
+php/include/php/ext:
+total 104
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 .
+drwxr-xr-x  8 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 apcu
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 curl
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 date
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 dom
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 filter
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 gd
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 gmp
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 hash
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 iconv
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 imagick
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 json
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 libxml
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 mbstring
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 mysqli
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 mysqlnd
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 pcre
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 pdo
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 phar
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 session
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 simplexml
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 sockets
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 spl
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 standard
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 xml
+
+php/include/php/ext/apcu:
+total 84
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root  1261 Apr 21 18:28 apc_api.h
+-rw-r--r--  1 root root   113 Apr 21 18:28 apc_arginfo.h
+-rw-r--r--  1 root root 13339 Apr 21 18:28 apc_cache.h
+-rw-r--r--  1 root root  3636 Apr 21 18:28 apc_globals.h
+-rw-r--r--  1 root root  6060 Apr 21 18:28 apc.h
+-rw-r--r--  1 root root  3878 Apr 21 18:28 apc_iterator.h
+-rw-r--r--  1 root root  4433 Apr 21 18:28 apc_lock.h
+-rw-r--r--  1 root root  2311 Apr 21 18:28 apc_mutex.h
+-rw-r--r--  1 root root  3033 Apr 21 18:28 apc_serializer.h
+-rw-r--r--  1 root root  5611 Apr 21 18:28 apc_sma.h
+-rw-r--r--  1 root root  2283 Apr 21 18:28 apc_stack.h
+-rw-r--r--  1 root root  2283 Apr 21 18:28 php_apc.h
+-rw-r--r--  1 root root  2981 Apr 21 18:28 php_apc_legacy_arginfo.h
+
+php/include/php/ext/curl:
+total 12
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 1743 Apr 21 18:28 php_curl.h
+
+php/include/php/ext/date:
+total 20
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 lib
+-rw-r--r--  1 root root 5000 Apr 21 18:28 php_date.h
+
+php/include/php/ext/date/lib:
+total 48
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root  4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root   283 Apr 21 18:28 timelib_config.h
+-rw-r--r-- 1 root root 34566 Apr 21 18:28 timelib.h
+
+php/include/php/ext/dom:
+total 12
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 3224 Apr 21 18:28 xml_common.h
+
+php/include/php/ext/filter:
+total 12
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 3279 Apr 21 18:28 php_filter.h
+
+php/include/php/ext/gd:
+total 52
+drwxr-xr-x  3 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 31496 Apr 21 18:28 gd_arginfo.h
+-rw-r--r--  1 root root   144 Apr 21 18:28 gd_compat.h
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 libgd
+-rw-r--r--  1 root root  3036 Apr 21 18:28 php_gd.h
+
+php/include/php/ext/gd/libgd:
+total 168
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root  4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root  2450 Apr 21 18:28 bmp.h
+-rw-r--r-- 1 root root  2749 Apr 21 18:28 gdcache.h
+-rw-r--r-- 1 root root   673 Apr 21 18:28 gd_errors.h
+-rw-r--r-- 1 root root   529 Apr 21 18:28 gdfontg.h
+-rw-r--r-- 1 root root   527 Apr 21 18:28 gdfontl.h
+-rw-r--r-- 1 root root   495 Apr 21 18:28 gdfontmb.h
+-rw-r--r-- 1 root root   491 Apr 21 18:28 gdfonts.h
+-rw-r--r-- 1 root root   522 Apr 21 18:28 gdfontt.h
+-rw-r--r-- 1 root root 33796 Apr 21 18:28 gd.h
+-rw-r--r-- 1 root root  1580 Apr 21 18:28 gdhelpers.h
+-rw-r--r-- 1 root root   261 Apr 21 18:28 gd_intern.h
+-rw-r--r-- 1 root root  1072 Apr 21 18:28 gd_io.h
+-rw-r--r-- 1 root root  1704 Apr 21 18:28 gd_tga.h
+-rw-r--r-- 1 root root 71350 Apr 21 18:28 jisx0208.h
+-rw-r--r-- 1 root root  1283 Apr 21 18:28 wbmp.h
+
+php/include/php/ext/gmp:
+total 12
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root  840 Apr 21 18:28 php_gmp_int.h
+
+php/include/php/ext/hash:
+total 68
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 1557 Apr 21 18:28 php_hash_adler32.h
+-rw-r--r--  1 root root 1818 Apr 21 18:28 php_hash_crc32.h
+-rw-r--r--  1 root root 2739 Apr 21 18:28 php_hash_fnv.h
+-rw-r--r--  1 root root 1505 Apr 21 18:28 php_hash_gost.h
+-rw-r--r--  1 root root 6307 Apr 21 18:28 php_hash.h
+-rw-r--r--  1 root root 2104 Apr 21 18:28 php_hash_haval.h
+-rw-r--r--  1 root root 1433 Apr 21 18:28 php_hash_joaat.h
+-rw-r--r--  1 root root 1886 Apr 21 18:28 php_hash_md.h
+-rw-r--r--  1 root root 2977 Apr 21 18:28 php_hash_ripemd.h
+-rw-r--r--  1 root root 2351 Apr 21 18:28 php_hash_sha3.h
+-rw-r--r--  1 root root 3326 Apr 21 18:28 php_hash_sha.h
+-rw-r--r--  1 root root 1586 Apr 21 18:28 php_hash_snefru.h
+-rw-r--r--  1 root root 1725 Apr 21 18:28 php_hash_tiger.h
+-rw-r--r--  1 root root 1513 Apr 21 18:28 php_hash_whirlpool.h
+
+php/include/php/ext/iconv:
+total 16
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 3808 Apr 21 18:28 iconv_arginfo.h
+-rw-r--r--  1 root root 3315 Apr 21 18:28 php_iconv.h
+
+php/include/php/ext/imagick:
+total 12
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 1828 Apr 21 18:28 php_imagick_shared.h
+
+php/include/php/ext/json:
+total 20
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 3879 Apr 21 18:28 php_json.h
+-rw-r--r--  1 root root 3104 Apr 21 18:28 php_json_parser.h
+-rw-r--r--  1 root root 2271 Apr 21 18:28 php_json_scanner.h
+
+php/include/php/ext/libxml:
+total 16
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 4662 Apr 21 18:28 php_libxml.h
+
+php/include/php/ext/mbstring:
+total 28
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 libmbfl
+-rw-r--r--  1 root root 4920 Apr 21 18:28 mbstring.h
+-rw-r--r--  1 root root 1734 Apr 21 18:28 php_mbregex.h
+-rw-r--r--  1 root root  256 Apr 21 18:28 php_onig_compat.h
+
+php/include/php/ext/mbstring/libmbfl:
+total 16
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root   24 Apr 21 18:28 config.h
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 mbfl
+
+php/include/php/ext/mbstring/libmbfl/mbfl:
+total 80
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 1449 Apr 21 18:28 eaw_table.h
+-rw-r--r-- 1 root root 1288 Apr 21 18:28 mbfilter_8bit.h
+-rw-r--r-- 1 root root 9900 Apr 21 18:28 mbfilter.h
+-rw-r--r-- 1 root root 1368 Apr 21 18:28 mbfilter_pass.h
+-rw-r--r-- 1 root root 1292 Apr 21 18:28 mbfilter_wchar.h
+-rw-r--r-- 1 root root 4241 Apr 21 18:28 mbfl_consts.h
+-rw-r--r-- 1 root root 3599 Apr 21 18:28 mbfl_convert.h
+-rw-r--r-- 1 root root 1648 Apr 21 18:28 mbfl_defs.h
+-rw-r--r-- 1 root root 4917 Apr 21 18:28 mbfl_encoding.h
+-rw-r--r-- 1 root root 1313 Apr 21 18:28 mbfl_filter_output.h
+-rw-r--r-- 1 root root 2611 Apr 21 18:28 mbfl_ident.h
+-rw-r--r-- 1 root root 2872 Apr 21 18:28 mbfl_language.h
+-rw-r--r-- 1 root root 2654 Apr 21 18:28 mbfl_memory_device.h
+-rw-r--r-- 1 root root 1613 Apr 21 18:28 mbfl_string.h
+
+php/include/php/ext/mysqli:
+total 24
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 2439 Apr 21 18:28 mysqli_mysqlnd.h
+-rw-r--r--  1 root root 8508 Apr 21 18:28 php_mysqli_structs.h
+
+php/include/php/ext/mysqlnd:
+total 256
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root  3141 Apr 21 18:28 config-win.h
+-rw-r--r--  1 root root  1879 Apr 21 18:28 mysql_float_to_double.h
+-rw-r--r--  1 root root  4671 Apr 21 18:28 mysqlnd_alloc.h
+-rw-r--r--  1 root root  4024 Apr 21 18:28 mysqlnd_auth.h
+-rw-r--r--  1 root root  1445 Apr 21 18:28 mysqlnd_block_alloc.h
+-rw-r--r--  1 root root  2156 Apr 21 18:28 mysqlnd_charset.h
+-rw-r--r--  1 root root  1201 Apr 21 18:28 mysqlnd_commands.h
+-rw-r--r--  1 root root  3091 Apr 21 18:28 mysqlnd_connection.h
+-rw-r--r--  1 root root  9923 Apr 21 18:28 mysqlnd_debug.h
+-rw-r--r--  1 root root 21005 Apr 21 18:28 mysqlnd_enum_n_def.h
+-rw-r--r--  1 root root  8179 Apr 21 18:28 mysqlnd_ext_plugin.h
+-rw-r--r--  1 root root 18957 Apr 21 18:28 mysqlnd.h
+-rw-r--r--  1 root root  7446 Apr 21 18:28 mysqlnd_libmysql_compat.h
+-rw-r--r--  1 root root  1329 Apr 21 18:28 mysqlnd_plugin.h
+-rw-r--r--  1 root root 14662 Apr 21 18:28 mysqlnd_portability.h
+-rw-r--r--  1 root root  2191 Apr 21 18:28 mysqlnd_priv.h
+-rw-r--r--  1 root root  1483 Apr 21 18:28 mysqlnd_protocol_frame_codec.h
+-rw-r--r--  1 root root  2145 Apr 21 18:28 mysqlnd_ps.h
+-rw-r--r--  1 root root  1231 Apr 21 18:28 mysqlnd_read_buffer.h
+-rw-r--r--  1 root root  1736 Apr 21 18:28 mysqlnd_result.h
+-rw-r--r--  1 root root  1544 Apr 21 18:28 mysqlnd_result_meta.h
+-rw-r--r--  1 root root  1725 Apr 21 18:28 mysqlnd_reverse_api.h
+-rw-r--r--  1 root root  4967 Apr 21 18:28 mysqlnd_statistics.h
+-rw-r--r--  1 root root 65419 Apr 21 18:28 mysqlnd_structs.h
+-rw-r--r--  1 root root  1426 Apr 21 18:28 mysqlnd_vio.h
+-rw-r--r--  1 root root 10042 Apr 21 18:28 mysqlnd_wireprotocol.h
+-rw-r--r--  1 root root  1226 Apr 21 18:28 php_mysqlnd.h
+
+php/include/php/ext/pcre:
+total 16
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 pcre2lib
+-rw-r--r--  1 root root 3970 Apr 21 18:28 php_pcre.h
+
+php/include/php/ext/pcre/pcre2lib:
+total 248
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root  4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root  3636 Apr 21 18:28 config.h
+-rw-r--r-- 1 root root 47120 Apr 21 18:28 pcre2.h
+-rw-r--r-- 1 root root 91519 Apr 21 18:28 pcre2_internal.h
+-rw-r--r-- 1 root root 37275 Apr 21 18:28 pcre2_intmodedep.h
+-rw-r--r-- 1 root root  8348 Apr 21 18:28 pcre2_jit_neon_inc.h
+-rw-r--r-- 1 root root 33842 Apr 21 18:28 pcre2_jit_simd_inc.h
+-rw-r--r-- 1 root root  8037 Apr 21 18:28 pcre2_ucp.h
+
+php/include/php/ext/pdo:
+total 44
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 24806 Apr 21 18:28 php_pdo_driver.h
+-rw-r--r--  1 root root  1675 Apr 21 18:28 php_pdo_error.h
+-rw-r--r--  1 root root  2235 Apr 21 18:28 php_pdo.h
+
+php/include/php/ext/phar:
+total 12
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 1648 Apr 21 18:28 php_phar.h
+
+php/include/php/ext/session:
+total 28
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root  1152 Apr 21 18:28 mod_files.h
+-rw-r--r--  1 root root  1146 Apr 21 18:28 mod_user.h
+-rw-r--r--  1 root root 11199 Apr 21 18:28 php_session.h
+
+php/include/php/ext/simplexml:
+total 16
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 2089 Apr 21 18:28 php_simplexml_exports.h
+-rw-r--r--  1 root root 2553 Apr 21 18:28 php_simplexml.h
+
+php/include/php/ext/sockets:
+total 12
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 3813 Apr 21 18:28 php_sockets.h
+
+php/include/php/ext/spl:
+total 60
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 2142 Apr 21 18:28 php_spl.h
+-rw-r--r--  1 root root 1474 Apr 21 18:28 spl_array.h
+-rw-r--r--  1 root root 5990 Apr 21 18:28 spl_directory.h
+-rw-r--r--  1 root root 1296 Apr 21 18:28 spl_dllist.h
+-rw-r--r--  1 root root 1891 Apr 21 18:28 spl_engine.h
+-rw-r--r--  1 root root 1930 Apr 21 18:28 spl_exceptions.h
+-rw-r--r--  1 root root 1230 Apr 21 18:28 spl_fixedarray.h
+-rw-r--r--  1 root root 3608 Apr 21 18:28 spl_functions.h
+-rw-r--r--  1 root root 1338 Apr 21 18:28 spl_heap.h
+-rw-r--r--  1 root root 5594 Apr 21 18:28 spl_iterators.h
+-rw-r--r--  1 root root 1363 Apr 21 18:28 spl_observer.h
+
+php/include/php/ext/standard:
+total 892
+drwxr-xr-x  2 root root   4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root   4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root   3678 Apr 21 18:28 base64.h
+-rw-r--r--  1 root root 126756 Apr 21 18:28 basic_functions_arginfo.h
+-rw-r--r--  1 root root   5151 Apr 21 18:28 basic_functions.h
+-rw-r--r--  1 root root   4603 Apr 21 18:28 crc32.h
+-rw-r--r--  1 root root   1861 Apr 21 18:28 crc32_x86.h
+-rw-r--r--  1 root root   5362 Apr 21 18:28 credits_ext.h
+-rw-r--r--  1 root root   1562 Apr 21 18:28 credits.h
+-rw-r--r--  1 root root    835 Apr 21 18:28 credits_sapi.h
+-rw-r--r--  1 root root    790 Apr 21 18:28 crypt_blowfish.h
+-rw-r--r--  1 root root    662 Apr 21 18:28 crypt_freesec.h
+-rw-r--r--  1 root root   1070 Apr 21 18:28 css.h
+-rw-r--r--  1 root root   1172 Apr 21 18:28 datetime.h
+-rw-r--r--  1 root root    746 Apr 21 18:28 dir_arginfo.h
+-rw-r--r--  1 root root    269 Apr 21 18:28 dl_arginfo.h
+-rw-r--r--  1 root root   1497 Apr 21 18:28 dl.h
+-rw-r--r--  1 root root   1304 Apr 21 18:28 exec.h
+-rw-r--r--  1 root root   4006 Apr 21 18:28 file.h
+-rw-r--r--  1 root root   2112 Apr 21 18:28 flock_compat.h
+-rw-r--r--  1 root root   1247 Apr 21 18:28 fsock.h
+-rw-r--r--  1 root root   1565 Apr 21 18:28 head.h
+-rw-r--r--  1 root root   2362 Apr 21 18:28 hrtime.h
+-rw-r--r--  1 root root   2405 Apr 21 18:28 html.h
+-rw-r--r--  1 root root 483597 Apr 21 18:28 html_tables.h
+-rw-r--r--  1 root root  23493 Apr 21 18:28 info.h
+-rw-r--r--  1 root root   1966 Apr 21 18:28 md5.h
+-rw-r--r--  1 root root   1073 Apr 21 18:28 pack.h
+-rw-r--r--  1 root root   1180 Apr 21 18:28 pageinfo.h
+-rw-r--r--  1 root root   2299 Apr 21 18:28 php_array.h
+-rw-r--r--  1 root root   1213 Apr 21 18:28 php_assert.h
+-rw-r--r--  1 root root   1135 Apr 21 18:28 php_browscap.h
+-rw-r--r--  1 root root   1403 Apr 21 18:28 php_crypt.h
+-rw-r--r--  1 root root   1679 Apr 21 18:28 php_crypt_r.h
+-rw-r--r--  1 root root   1313 Apr 21 18:28 php_dir.h
+-rw-r--r--  1 root root   2643 Apr 21 18:28 php_dns.h
+-rw-r--r--  1 root root   1277 Apr 21 18:28 php_ext_syslog.h
+-rw-r--r--  1 root root   2161 Apr 21 18:28 php_filestat.h
+-rw-r--r--  1 root root   1837 Apr 21 18:28 php_fopen_wrappers.h
+-rw-r--r--  1 root root   1477 Apr 21 18:28 php_http.h
+-rw-r--r--  1 root root   2146 Apr 21 18:28 php_image.h
+-rw-r--r--  1 root root   2198 Apr 21 18:28 php_incomplete_class.h
+-rw-r--r--  1 root root   1343 Apr 21 18:28 php_lcg.h
+-rw-r--r--  1 root root   2215 Apr 21 18:28 php_mail.h
+-rw-r--r--  1 root root   3632 Apr 21 18:28 php_math.h
+-rw-r--r--  1 root root   1851 Apr 21 18:28 php_mt_rand.h
+-rw-r--r--  1 root root   1163 Apr 21 18:28 php_net.h
+-rw-r--r--  1 root root   2839 Apr 21 18:28 php_password.h
+-rw-r--r--  1 root root   3067 Apr 21 18:28 php_rand.h
+-rw-r--r--  1 root root   1916 Apr 21 18:28 php_random.h
+-rw-r--r--  1 root root   1161 Apr 21 18:28 php_smart_string.h
+-rw-r--r--  1 root root   1168 Apr 21 18:28 php_smart_string_public.h
+-rw-r--r--  1 root root   1957 Apr 21 18:28 php_standard.h
+-rw-r--r--  1 root root   4054 Apr 21 18:28 php_string.h
+-rw-r--r--  1 root root   1205 Apr 21 18:28 php_uuencode.h
+-rw-r--r--  1 root root   3490 Apr 21 18:28 php_var.h
+-rw-r--r--  1 root root   1211 Apr 21 18:28 php_versioning.h
+-rw-r--r--  1 root root   1702 Apr 21 18:28 proc_open.h
+-rw-r--r--  1 root root   1255 Apr 21 18:28 quot_print.h
+-rw-r--r--  1 root root   1997 Apr 21 18:28 scanf.h
+-rw-r--r--  1 root root   1570 Apr 21 18:28 sha1.h
+-rw-r--r--  1 root root   1137 Apr 21 18:28 streamsfuncs.h
+-rw-r--r--  1 root root   2140 Apr 21 18:28 url.h
+-rw-r--r--  1 root root   2373 Apr 21 18:28 url_scanner_ex.h
+-rw-r--r--  1 root root    987 Apr 21 18:28 user_filters_arginfo.h
+-rw-r--r--  1 root root   6377 Apr 21 18:28 winver.h
+
+php/include/php/ext/xml:
+total 28
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 26 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 6273 Apr 21 18:28 expat_compat.h
+-rw-r--r--  1 root root 1571 Apr 21 18:28 php_xml.h
+-rw-r--r--  1 root root 6040 Apr 21 18:28 xml_arginfo.h
+
+php/include/php/include:
+total 8
+drwxr-xr-x 2 root root 4096 Jan  1  1970 .
+drwxr-xr-x 8 root root 4096 Apr 21 18:39 ..
+
+php/include/php/main:
+total 252
+drwxr-xr-x 3 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 8 root root  4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root  3195 Apr 21 18:28 build-defs.h
+-rw-r--r-- 1 root root  4876 Apr 21 18:28 fastcgi.h
+-rw-r--r-- 1 root root  2256 Apr 21 18:28 fopen_wrappers.h
+-rw-r--r-- 1 root root  2898 Apr 21 18:28 http_status_codes.h
+-rw-r--r-- 1 root root 20130 Apr 21 18:28 php_compat.h
+-rw-r--r-- 1 root root 48125 Apr 21 18:28 php_config.h
+-rw-r--r-- 1 root root  1338 Apr 21 18:28 php_content_types.h
+-rw-r--r-- 1 root root  1671 Apr 21 18:28 php_getopt.h
+-rw-r--r-- 1 root root  4038 Apr 21 18:28 php_globals.h
+-rw-r--r-- 1 root root 11930 Apr 21 18:28 php.h
+-rw-r--r-- 1 root root  3613 Apr 21 18:28 php_ini.h
+-rw-r--r-- 1 root root  2323 Apr 21 18:28 php_main.h
+-rw-r--r-- 1 root root  3369 Apr 21 18:28 php_memory_streams.h
+-rw-r--r-- 1 root root 10374 Apr 21 18:28 php_network.h
+-rw-r--r-- 1 root root  1960 Apr 21 18:28 php_open_temporary_file.h
+-rw-r--r-- 1 root root  9558 Apr 21 18:28 php_output.h
+-rw-r--r-- 1 root root  3231 Apr 21 18:28 php_reentrancy.h
+-rw-r--r-- 1 root root  1715 Apr 21 18:28 php_scandir.h
+-rw-r--r-- 1 root root  1836 Apr 21 18:28 php_stdint.h
+-rw-r--r-- 1 root root 29343 Apr 21 18:28 php_streams.h
+-rw-r--r-- 1 root root  1502 Apr 21 18:28 php_syslog.h
+-rw-r--r-- 1 root root  1351 Apr 21 18:28 php_ticks.h
+-rw-r--r-- 1 root root  1939 Apr 21 18:28 php_variables.h
+-rw-r--r-- 1 root root   266 Apr 21 18:28 php_version.h
+-rw-r--r-- 1 root root  3213 Apr 21 18:28 rfc1867.h
+-rw-r--r-- 1 root root 10264 Apr 21 18:28 SAPI.h
+-rw-r--r-- 1 root root  6708 Apr 21 18:28 snprintf.h
+-rw-r--r-- 1 root root  1501 Apr 21 18:28 spprintf.h
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 streams
+
+php/include/php/main/streams:
+total 52
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 5539 Apr 21 18:28 php_stream_context.h
+-rw-r--r-- 1 root root 6708 Apr 21 18:28 php_stream_filter_api.h
+-rw-r--r-- 1 root root 1733 Apr 21 18:28 php_stream_glob_wrapper.h
+-rw-r--r-- 1 root root 3189 Apr 21 18:28 php_stream_mmap.h
+-rw-r--r-- 1 root root 3516 Apr 21 18:28 php_stream_plain_wrapper.h
+-rw-r--r-- 1 root root 2845 Apr 21 18:28 php_streams_int.h
+-rw-r--r-- 1 root root 7614 Apr 21 18:28 php_stream_transport.h
+-rw-r--r-- 1 root root 1275 Apr 21 18:28 php_stream_userspace.h
+
+php/include/php/sapi:
+total 12
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 8 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 cli
+
+php/include/php/sapi/cli:
+total 12
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 1603 Apr 21 18:28 cli.h
+
+php/include/php/TSRM:
+total 20
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 8 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 6212 Apr 21 18:28 TSRM.h
+-rw-r--r-- 1 root root 3098 Apr 21 18:28 tsrm_win32.h
+
+php/include/php/Zend:
+total 3232
+drwxr-xr-x 2 root root    4096 Apr 21 18:39 .
+drwxr-xr-x 8 root root    4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root   19293 Apr 21 18:28 zend_alloc.h
+-rw-r--r-- 1 root root    2629 Apr 21 18:28 zend_alloc_sizes.h
+-rw-r--r-- 1 root root   92119 Apr 21 18:28 zend_API.h
+-rw-r--r-- 1 root root    6073 Apr 21 18:28 zend_arena.h
+-rw-r--r-- 1 root root   12616 Apr 21 18:28 zend_ast.h
+-rw-r--r-- 1 root root     503 Apr 21 18:28 zend_attributes_arginfo.h
+-rw-r--r-- 1 root root    5235 Apr 21 18:28 zend_attributes.h
+-rw-r--r-- 1 root root    7940 Apr 21 18:28 zend_bitset.h
+-rw-r--r-- 1 root root    1626 Apr 21 18:28 zend_build.h
+-rw-r--r-- 1 root root   13014 Apr 21 18:28 zend_builtin_functions_arginfo.h
+-rw-r--r-- 1 root root    1513 Apr 21 18:28 zend_builtin_functions.h
+-rw-r--r-- 1 root root    1751 Apr 21 18:28 zend_closures_arginfo.h
+-rw-r--r-- 1 root root    2216 Apr 21 18:28 zend_closures.h
+-rw-r--r-- 1 root root   44860 Apr 21 18:28 zend_compile.h
+-rw-r--r-- 1 root root      32 Apr 21 18:28 zend_config.h
+-rw-r--r-- 1 root root    2265 Apr 21 18:28 zend_config.w32.h
+-rw-r--r-- 1 root root    6485 Apr 21 18:28 zend_constants.h
+-rw-r--r-- 1 root root    7492 Apr 21 18:28 zend_cpuinfo.h
+-rw-r--r-- 1 root root    2050 Apr 21 18:28 zend_dtrace.h
+-rw-r--r-- 1 root root    2400 Apr 21 18:28 zend_errors.h
+-rw-r--r-- 1 root root    8098 Apr 21 18:28 zend_exceptions_arginfo.h
+-rw-r--r-- 1 root root    4114 Apr 21 18:28 zend_exceptions.h
+-rw-r--r-- 1 root root   18683 Apr 21 18:28 zend_execute.h
+-rw-r--r-- 1 root root    6194 Apr 21 18:28 zend_extensions.h
+-rw-r--r-- 1 root root   15438 Apr 21 18:28 zend_float.h
+-rw-r--r-- 1 root root    3942 Apr 21 18:28 zend_gc.h
+-rw-r--r-- 1 root root    1420 Apr 21 18:28 zend_gdb.h
+-rw-r--r-- 1 root root    2015 Apr 21 18:28 zend_generators_arginfo.h
+-rw-r--r-- 1 root root    7433 Apr 21 18:28 zend_generators.h
+-rw-r--r-- 1 root root    8066 Apr 21 18:28 zend_globals.h
+-rw-r--r-- 1 root root    2810 Apr 21 18:28 zend_globals_macros.h
+-rw-r--r-- 1 root root   13855 Apr 21 18:28 zend.h
+-rw-r--r-- 1 root root   38614 Apr 21 18:28 zend_hash.h
+-rw-r--r-- 1 root root    2289 Apr 21 18:28 zend_highlight.h
+-rw-r--r-- 1 root root    1967 Apr 21 18:28 zend_inheritance.h
+-rw-r--r-- 1 root root   10117 Apr 21 18:28 zend_ini.h
+-rw-r--r-- 1 root root    3619 Apr 21 18:28 zend_ini_parser.h
+-rw-r--r-- 1 root root     186 Apr 21 18:28 zend_ini_scanner_defs.h
+-rw-r--r-- 1 root root    1889 Apr 21 18:28 zend_ini_scanner.h
+-rw-r--r-- 1 root root    5287 Apr 21 18:28 zend_interfaces_arginfo.h
+-rw-r--r-- 1 root root    4437 Apr 21 18:28 zend_interfaces.h
+-rw-r--r-- 1 root root    1537 Apr 21 18:28 zend_istdiostream.h
+-rw-r--r-- 1 root root    3581 Apr 21 18:28 zend_iterators.h
+-rw-r--r-- 1 root root   10755 Apr 21 18:28 zend_language_parser.h
+-rw-r--r-- 1 root root     266 Apr 21 18:28 zend_language_scanner_defs.h
+-rw-r--r-- 1 root root    3058 Apr 21 18:28 zend_language_scanner.h
+-rw-r--r-- 1 root root    3475 Apr 21 18:28 zend_list.h
+-rw-r--r-- 1 root root    3802 Apr 21 18:28 zend_llist.h
+-rw-r--r-- 1 root root    4246 Apr 21 18:28 zend_long.h
+-rw-r--r-- 1 root root    3474 Apr 21 18:28 zend_map_ptr.h
+-rw-r--r-- 1 root root    4830 Apr 21 18:28 zend_modules.h
+-rw-r--r-- 1 root root    4897 Apr 21 18:28 zend_multibyte.h
+-rw-r--r-- 1 root root    9846 Apr 21 18:28 zend_multiply.h
+-rw-r--r-- 1 root root   13854 Apr 21 18:28 zend_object_handlers.h
+-rw-r--r-- 1 root root    4701 Apr 21 18:28 zend_objects_API.h
+-rw-r--r-- 1 root root    1814 Apr 21 18:28 zend_objects.h
+-rw-r--r-- 1 root root    3419 Apr 21 18:28 zend_observer.h
+-rw-r--r-- 1 root root   31181 Apr 21 18:28 zend_operators.h
+-rw-r--r-- 1 root root   20848 Apr 21 18:28 zend_portability.h
+-rw-r--r-- 1 root root    4306 Apr 21 18:28 zend_ptr_stack.h
+-rw-r--r-- 1 root root    3000 Apr 21 18:28 zend_range_check.h
+-rw-r--r-- 1 root root    4084 Apr 21 18:28 zend_signal.h
+-rw-r--r-- 1 root root    5378 Apr 21 18:28 zend_smart_str.h
+-rw-r--r-- 1 root root    4237 Apr 21 18:28 zend_smart_string.h
+-rw-r--r-- 1 root root    1240 Apr 21 18:28 zend_smart_string_public.h
+-rw-r--r-- 1 root root    1127 Apr 21 18:28 zend_smart_str_public.h
+-rw-r--r-- 1 root root    1535 Apr 21 18:28 zend_sort.h
+-rw-r--r-- 1 root root    2364 Apr 21 18:28 zend_stack.h
+-rw-r--r-- 1 root root    3558 Apr 21 18:28 zend_stream.h
+-rw-r--r-- 1 root root   18710 Apr 21 18:28 zend_string.h
+-rw-r--r-- 1 root root    1854 Apr 21 18:28 zend_strtod.h
+-rw-r--r-- 1 root root    3414 Apr 21 18:28 zend_strtod_int.h
+-rw-r--r-- 1 root root    1404 Apr 21 18:28 zend_system_id.h
+-rw-r--r-- 1 root root    5469 Apr 21 18:28 zend_ts_hash.h
+-rw-r--r-- 1 root root    3755 Apr 21 18:28 zend_type_info.h
+-rw-r--r-- 1 root root   44902 Apr 21 18:28 zend_types.h
+-rw-r--r-- 1 root root    3065 Apr 21 18:28 zend_variables.h
+-rw-r--r-- 1 root root   12613 Apr 21 18:28 zend_virtual_cwd.h
+-rw-r--r-- 1 root root  279918 Apr 21 18:28 zend_vm_def.h
+-rw-r--r-- 1 root root 2073552 Apr 21 18:28 zend_vm_execute.h
+-rw-r--r-- 1 root root    1952 Apr 21 18:28 zend_vm.h
+-rw-r--r-- 1 root root   91415 Apr 21 18:28 zend_vm_handlers.h
+-rw-r--r-- 1 root root   12523 Apr 21 18:28 zend_vm_opcodes.h
+-rw-r--r-- 1 root root    3212 Apr 21 18:28 zend_vm_trace_handlers.h
+-rw-r--r-- 1 root root    1755 Apr 21 18:28 zend_vm_trace_lines.h
+-rw-r--r-- 1 root root    2661 Apr 21 18:28 zend_vm_trace_map.h
+-rw-r--r-- 1 root root    2549 Apr 21 18:28 zend_weakrefs_arginfo.h
+-rw-r--r-- 1 root root    1713 Apr 21 18:28 zend_weakrefs.h
+
+php/lib:
+total 12
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 12 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x 14 root root 4096 Apr 21 18:39 php
+lrwxrwxrwx  1 root root   14 Apr 21 18:28 php.ini -> ../etc/php.ini
+
+php/lib/php:
+total 148
+drwxr-xr-x 14 root root  4096 Apr 21 18:39 .
+drwxr-xr-x  3 root root  4096 Apr 21 18:39 ..
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Archive
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 build
+drwxr-xr-x  3 root root  4096 Apr 21 18:39 .channels
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Console
+drwxr-xr-x  3 root root  4096 Apr 21 18:39 data
+-rw-r--r--  1 root root  2080 Apr 21 18:28 .depdb
+-rw-r--r--  1 root root     0 Apr 21 18:28 .depdblock
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 extensions
+-rw-r--r--  1 root root  6961 Apr 21 18:28 .filemap
+-rw-r--r--  1 root root     0 Apr 21 18:28 .lock
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 OS
+drwxr-xr-x 11 root root  4096 Apr 21 18:39 PEAR
+-rw-r--r--  1 root root 14845 Apr 21 18:28 pearcmd.php
+-rw-r--r--  1 root root 36171 Apr 21 18:28 PEAR.php
+-rw-r--r--  1 root root  1113 Apr 21 18:28 peclcmd.php
+drwxr-xr-x  5 root root  4096 Apr 21 18:39 .registry
+drwxr-xr-x  3 root root  4096 Apr 21 18:39 Structures
+-rw-r--r--  1 root root 20694 Apr 21 18:28 System.php
+drwxr-xr-x  5 root root  4096 Apr 21 18:39 test
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 XML
+
+php/lib/php/Archive:
+total 96
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 88328 Apr 21 18:28 Tar.php
+
+php/lib/php/build:
+total 920
+drwxr-xr-x  2 root root   4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root   4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root   2104 Apr 21 18:28 ax_check_compile_flag.m4
+-rw-r--r--  1 root root   8415 Apr 21 18:28 ax_gcc_func_attribute.m4
+-rwxr-xr-x  1 root root  49348 Apr 21 18:28 config.guess
+-rwxr-xr-x  1 root root  35276 Apr 21 18:28 config.sub
+-rw-r--r--  1 root root  64050 Apr 21 18:28 gen_stub.php
+-rw-r--r--  1 root root 230337 Apr 21 18:28 libtool.m4
+-rw-r--r--  1 root root 200021 Apr 21 18:28 ltmain.sh
+-rw-r--r--  1 root root   7241 Apr 21 18:28 Makefile.global
+-rw-r--r--  1 root root  17629 Apr 21 18:28 php_cxx_compile_stdcxx.m4
+-rw-r--r--  1 root root   5082 Apr 21 18:28 phpize.m4
+-rw-r--r--  1 root root  71796 Apr 21 18:28 php.m4
+-rw-r--r--  1 root root  10248 Apr 21 18:28 pkg.m4
+-rw-r--r--  1 root root 132614 Apr 21 18:28 run-tests.php
+-rwxr-xr-x  1 root root  65761 Apr 21 18:28 shtool
+
+php/lib/php/.channels:
+total 28
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .alias
+-rw-r--r--  1 root root  533 Apr 21 18:28 doc.php.net.reg
+-rw-r--r--  1 root root  552 Apr 21 18:28 pear.php.net.reg
+-rw-r--r--  1 root root  555 Apr 21 18:28 pecl.php.net.reg
+-rw-r--r--  1 root root  267 Apr 21 18:28 __uri.reg
+
+php/lib/php/.channels/.alias:
+total 20
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root   12 Apr 21 18:28 pear.txt
+-rw-r--r-- 1 root root   12 Apr 21 18:28 pecl.txt
+-rw-r--r-- 1 root root   11 Apr 21 18:28 phpdocs.txt
+
+php/lib/php/Console:
+total 24
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 13635 Apr 21 18:28 Getopt.php
+
+php/lib/php/data:
+total 12
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 PEAR
+
+php/lib/php/data/PEAR:
+total 16
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 3391 Apr 21 18:28 package.dtd
+-rw-r--r-- 1 root root 2005 Apr 21 18:28 template.spec
+
+php/lib/php/extensions:
+total 4992
+drwxr-xr-x  2 root root    4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root    4096 Apr 21 18:39 ..
+-rwxr-xr-x  1 root root   77312 Apr 21 18:29 apcu.so
+-rwxr-xr-x  1 root root  478976 Apr 21 18:29 imagick.so
+-rwxr-xr-x  1 root root   27424 Apr 21 18:29 maxminddb.so
+-rwxr-xr-x  1 root root  175944 Apr 21 18:29 memcached.so
+-rwxr-xr-x  1 root root 2274296 Apr 21 18:29 mongodb.so
+-rwxr-xr-x  1 root root 1340768 Apr 21 18:29 opcache.so
+-rwxr-xr-x  1 root root   31520 Apr 21 18:29 pdo_dblib.so
+-rwxr-xr-x  1 root root   52384 Apr 21 18:29 pdo_pgsql.so
+-rwxr-xr-x  1 root root  139040 Apr 21 18:29 pgsql.so
+-rwxr-xr-x  1 root root  493224 Apr 21 18:29 xdebug.so
+
+php/lib/php/OS:
+total 20
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 11517 Apr 21 18:28 Guess.php
+
+php/lib/php/PEAR:
+total 700
+drwxr-xr-x 11 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 18939 Apr 21 18:28 Builder.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 ChannelFile
+-rw-r--r--  1 root root 50844 Apr 21 18:28 ChannelFile.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Command
+-rw-r--r--  1 root root 12427 Apr 21 18:28 Command.php
+-rw-r--r--  1 root root 26466 Apr 21 18:28 Common.php
+-rw-r--r--  1 root root 69481 Apr 21 18:28 Config.php
+-rw-r--r--  1 root root 50446 Apr 21 18:28 Dependency2.php
+-rw-r--r--  1 root root 24169 Apr 21 18:28 DependencyDB.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Downloader
+-rw-r--r--  1 root root 66009 Apr 21 18:28 Downloader.php
+-rw-r--r--  1 root root 33804 Apr 21 18:28 ErrorStack.php
+-rw-r--r--  1 root root 13933 Apr 21 18:28 Exception.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Frontend
+-rw-r--r--  1 root root  6650 Apr 21 18:28 Frontend.php
+drwxr-xr-x  3 root root  4096 Apr 21 18:39 Installer
+-rw-r--r--  1 root root 70070 Apr 21 18:28 Installer.php
+drwxr-xr-x  5 root root  4096 Apr 21 18:39 PackageFile
+-rw-r--r--  1 root root 15846 Apr 21 18:28 PackageFile.php
+-rw-r--r--  1 root root  7712 Apr 21 18:28 Packager.php
+-rw-r--r--  1 root root  5650 Apr 21 18:28 Proxy.php
+-rw-r--r--  1 root root 75808 Apr 21 18:28 Registry.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 REST
+-rw-r--r--  1 root root 16709 Apr 21 18:28 REST.php
+-rw-r--r--  1 root root 35987 Apr 21 18:28 RunTest.php
+drwxr-xr-x  6 root root  4096 Apr 21 18:39 Task
+-rw-r--r--  1 root root 22005 Apr 21 18:28 Validate.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Validator
+-rw-r--r--  1 root root  6911 Apr 21 18:28 XMLParser.php
+
+php/lib/php/PEAR/ChannelFile:
+total 12
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 11 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 1708 Apr 21 18:28 Parser.php
+
+php/lib/php/PEAR/Command:
+total 348
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 11 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root  2571 Apr 21 18:28 Auth.php
+-rw-r--r--  1 root root  1228 Apr 21 18:28 Auth.xml
+-rw-r--r--  1 root root  2643 Apr 21 18:28 Build.php
+-rw-r--r--  1 root root   388 Apr 21 18:28 Build.xml
+-rw-r--r--  1 root root 33445 Apr 21 18:28 Channels.php
+-rw-r--r--  1 root root  4218 Apr 21 18:28 Channels.xml
+-rw-r--r--  1 root root  8214 Apr 21 18:28 Common.php
+-rw-r--r--  1 root root 15467 Apr 21 18:28 Config.php
+-rw-r--r--  1 root root  3382 Apr 21 18:28 Config.xml
+-rw-r--r--  1 root root 51003 Apr 21 18:28 Install.php
+-rw-r--r--  1 root root  8691 Apr 21 18:28 Install.xml
+-rw-r--r--  1 root root  4510 Apr 21 18:28 Mirror.php
+-rw-r--r--  1 root root   617 Apr 21 18:28 Mirror.xml
+-rw-r--r--  1 root root 40146 Apr 21 18:28 Package.php
+-rw-r--r--  1 root root  7222 Apr 21 18:28 Package.xml
+-rw-r--r--  1 root root 15895 Apr 21 18:28 Pickle.php
+-rw-r--r--  1 root root  1179 Apr 21 18:28 Pickle.xml
+-rw-r--r--  1 root root 46285 Apr 21 18:28 Registry.php
+-rw-r--r--  1 root root  1790 Apr 21 18:28 Registry.xml
+-rw-r--r--  1 root root 29986 Apr 21 18:28 Remote.php
+-rw-r--r--  1 root root  3311 Apr 21 18:28 Remote.xml
+-rw-r--r--  1 root root 12136 Apr 21 18:28 Test.php
+-rw-r--r--  1 root root  1641 Apr 21 18:28 Test.xml
+
+php/lib/php/PEAR/Downloader:
+total 84
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 11 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 76207 Apr 21 18:28 Package.php
+
+php/lib/php/PEAR/Frontend:
+total 36
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 11 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 25677 Apr 21 18:28 CLI.php
+
+php/lib/php/PEAR/Installer:
+total 20
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 11 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 Role
+-rw-r--r--  1 root root 7868 Apr 21 18:28 Role.php
+
+php/lib/php/PEAR/Installer/Role:
+total 96
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 3967 Apr 21 18:28 Cfg.php
+-rw-r--r-- 1 root root  421 Apr 21 18:28 Cfg.xml
+-rw-r--r-- 1 root root 6215 Apr 21 18:28 Common.php
+-rw-r--r-- 1 root root  783 Apr 21 18:28 Data.php
+-rw-r--r-- 1 root root  402 Apr 21 18:28 Data.xml
+-rw-r--r-- 1 root root  781 Apr 21 18:28 Doc.php
+-rw-r--r-- 1 root root  401 Apr 21 18:28 Doc.xml
+-rw-r--r-- 1 root root  781 Apr 21 18:28 Ext.php
+-rw-r--r-- 1 root root  322 Apr 21 18:28 Ext.xml
+-rw-r--r-- 1 root root  805 Apr 21 18:28 Man.php
+-rw-r--r-- 1 root root  421 Apr 21 18:28 Man.xml
+-rw-r--r-- 1 root root  781 Apr 21 18:28 Php.php
+-rw-r--r-- 1 root root  429 Apr 21 18:28 Php.xml
+-rw-r--r-- 1 root root  787 Apr 21 18:28 Script.php
+-rw-r--r-- 1 root root  432 Apr 21 18:28 Script.xml
+-rw-r--r-- 1 root root  882 Apr 21 18:28 Src.php
+-rw-r--r-- 1 root root  290 Apr 21 18:28 Src.xml
+-rw-r--r-- 1 root root  783 Apr 21 18:28 Test.php
+-rw-r--r-- 1 root root  402 Apr 21 18:28 Test.xml
+-rw-r--r-- 1 root root  777 Apr 21 18:28 Www.php
+-rw-r--r-- 1 root root  420 Apr 21 18:28 Www.xml
+
+php/lib/php/PEAR/PackageFile:
+total 144
+drwxr-xr-x  5 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 11 root root  4096 Apr 21 18:39 ..
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Generator
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Parser
+-rw-r--r--  1 root root 50611 Apr 21 18:28 v1.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 v2
+-rw-r--r--  1 root root 69952 Apr 21 18:28 v2.php
+
+php/lib/php/PEAR/PackageFile/Generator:
+total 96
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 5 root root  4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 50353 Apr 21 18:28 v1.php
+-rw-r--r-- 1 root root 33225 Apr 21 18:28 v2.php
+
+php/lib/php/PEAR/PackageFile/Parser:
+total 32
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 5 root root  4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 16519 Apr 21 18:28 v1.php
+-rw-r--r-- 1 root root  3144 Apr 21 18:28 v2.php
+
+php/lib/php/PEAR/PackageFile/v2:
+total 156
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 5 root root  4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 63071 Apr 21 18:28 rw.php
+-rw-r--r-- 1 root root 85120 Apr 21 18:28 Validator.php
+
+php/lib/php/PEAR/REST:
+total 68
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 11 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 32657 Apr 21 18:28 10.php
+-rw-r--r--  1 root root 11241 Apr 21 18:28 11.php
+-rw-r--r--  1 root root 15127 Apr 21 18:28 13.php
+
+php/lib/php/PEAR/Task:
+total 64
+drwxr-xr-x  6 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 11 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root  6175 Apr 21 18:28 Common.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Postinstallscript
+-rw-r--r--  1 root root 14712 Apr 21 18:28 Postinstallscript.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Replace
+-rw-r--r--  1 root root  6905 Apr 21 18:28 Replace.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Unixeol
+-rw-r--r--  1 root root  2303 Apr 21 18:28 Unixeol.php
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 Windowseol
+-rw-r--r--  1 root root  2291 Apr 21 18:28 Windowseol.php
+
+php/lib/php/PEAR/Task/Postinstallscript:
+total 16
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 6 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 6172 Apr 21 18:28 rw.php
+
+php/lib/php/PEAR/Task/Replace:
+total 12
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 6 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 1559 Apr 21 18:28 rw.php
+
+php/lib/php/PEAR/Task/Unixeol:
+total 12
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 6 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 1308 Apr 21 18:28 rw.php
+
+php/lib/php/PEAR/Task/Windowseol:
+total 12
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 6 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 1321 Apr 21 18:28 rw.php
+
+php/lib/php/PEAR/Validator:
+total 12
+drwxr-xr-x  2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 11 root root 4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 2105 Apr 21 18:28 PECL.php
+
+php/lib/php/.registry:
+total 200
+drwxr-xr-x  5 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 22407 Apr 21 18:28 archive_tar.reg
+drwxr-xr-x  2 root root  4096 Jan  1  1970 .channel.doc.php.net
+drwxr-xr-x  2 root root  4096 Jan  1  1970 .channel.pecl.php.net
+drwxr-xr-x  2 root root  4096 Jan  1  1970 .channel.__uri
+-rw-r--r--  1 root root 10663 Apr 21 18:28 console_getopt.reg
+-rw-r--r--  1 root root 98593 Apr 21 18:28 pear.reg
+-rw-r--r--  1 root root 10936 Apr 21 18:28 structures_graph.reg
+-rw-r--r--  1 root root 30175 Apr 21 18:28 xml_util.reg
+
+php/lib/php/.registry/.channel.doc.php.net:
+total 8
+drwxr-xr-x 2 root root 4096 Jan  1  1970 .
+drwxr-xr-x 5 root root 4096 Apr 21 18:39 ..
+
+php/lib/php/.registry/.channel.pecl.php.net:
+total 8
+drwxr-xr-x 2 root root 4096 Jan  1  1970 .
+drwxr-xr-x 5 root root 4096 Apr 21 18:39 ..
+
+php/lib/php/.registry/.channel.__uri:
+total 8
+drwxr-xr-x 2 root root 4096 Jan  1  1970 .
+drwxr-xr-x 5 root root 4096 Apr 21 18:39 ..
+
+php/lib/php/Structures:
+total 20
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 Graph
+-rw-r--r--  1 root root 6175 Apr 21 18:28 Graph.php
+
+php/lib/php/Structures/Graph:
+total 24
+drwxr-xr-x 3 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root  4096 Apr 21 18:39 ..
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 Manipulator
+-rw-r--r-- 1 root root 11040 Apr 21 18:28 Node.php
+
+php/lib/php/Structures/Graph/Manipulator:
+total 24
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 5761 Apr 21 18:28 AcyclicTest.php
+-rw-r--r-- 1 root root 7028 Apr 21 18:28 TopologicalSorter.php
+
+php/lib/php/test:
+total 20
+drwxr-xr-x  5 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 Console_Getopt
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 Structures_Graph
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 XML_Util
+
+php/lib/php/test/Console_Getopt:
+total 12
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 5 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 tests
+
+php/lib/php/test/Console_Getopt/tests:
+total 24
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 1230 Apr 21 18:28 001-getopt.phpt
+-rw-r--r-- 1 root root  494 Apr 21 18:28 bug10557.phpt
+-rw-r--r-- 1 root root  793 Apr 21 18:28 bug11068.phpt
+-rw-r--r-- 1 root root 1349 Apr 21 18:28 bug13140.phpt
+
+php/lib/php/test/Structures_Graph:
+total 12
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 5 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 tests
+
+php/lib/php/test/Structures_Graph/tests:
+total 36
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 1308 Apr 21 18:28 AcyclicTestTest.php
+-rw-r--r-- 1 root root  444 Apr 21 18:28 AllTests.php
+-rw-r--r-- 1 root root 9066 Apr 21 18:28 BasicGraphTest.php
+-rw-r--r-- 1 root root  356 Apr 21 18:28 helper.inc
+-rw-r--r-- 1 root root 1877 Apr 21 18:28 TopologicalSorterTest.php
+
+php/lib/php/test/XML_Util:
+total 12
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 5 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 tests
+
+php/lib/php/test/XML_Util/tests:
+total 132
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root  4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root   424 Apr 21 18:28 AbstractUnitTests.php
+-rw-r--r-- 1 root root   221 Apr 21 18:28 ApiVersionTests.php
+-rw-r--r-- 1 root root  7702 Apr 21 18:28 AttributesToStringTests.php
+-rw-r--r-- 1 root root  1742 Apr 21 18:28 Bug18343Tests.php
+-rw-r--r-- 1 root root  1054 Apr 21 18:28 Bug21177Tests.php
+-rw-r--r-- 1 root root   450 Apr 21 18:28 Bug21184Tests.php
+-rw-r--r-- 1 root root   729 Apr 21 18:28 Bug4950Tests.php
+-rw-r--r-- 1 root root   767 Apr 21 18:28 Bug5392Tests.php
+-rw-r--r-- 1 root root  4353 Apr 21 18:28 CollapseEmptyTagsTests.php
+-rw-r--r-- 1 root root   362 Apr 21 18:28 CreateCDataSectionTests.php
+-rw-r--r-- 1 root root   340 Apr 21 18:28 CreateCommentTests.php
+-rw-r--r-- 1 root root   613 Apr 21 18:28 CreateEndElementTests.php
+-rw-r--r-- 1 root root  5410 Apr 21 18:28 CreateStartElementTests.php
+-rw-r--r-- 1 root root 13492 Apr 21 18:28 CreateTagFromArrayTests.php
+-rw-r--r-- 1 root root  7978 Apr 21 18:28 CreateTagTests.php
+-rw-r--r-- 1 root root  1779 Apr 21 18:28 GetDocTypeDeclarationTests.php
+-rw-r--r-- 1 root root  1164 Apr 21 18:28 GetXmlDeclarationTests.php
+-rw-r--r-- 1 root root  1983 Apr 21 18:28 IsValidNameTests.php
+-rw-r--r-- 1 root root   448 Apr 21 18:28 RaiseErrorTests.php
+-rw-r--r-- 1 root root  4321 Apr 21 18:28 ReplaceEntitiesTests.php
+-rw-r--r-- 1 root root  4310 Apr 21 18:28 ReverseEntitiesTests.php
+-rw-r--r-- 1 root root   839 Apr 21 18:28 SplitQualifiedNameTests.php
+
+php/lib/php/XML:
+total 40
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 14 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root 32176 Apr 21 18:28 Util.php
+
+php/licenses:
+total 56
+drwxr-xr-x  2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 12 root root  4096 Apr 21 18:39 ..
+-rw-r--r--  1 root root    39 Apr 21 18:29 composer-2.5.5.txt
+-rw-r--r--  1 root root    47 Apr 21 18:28 libmemcached-3.2.0.txt
+-rw-r--r--  1 root root 11358 Apr 21 18:29 maxmind-db-reader-php-1.11.0.txt
+-rw-r--r--  1 root root  3218 Apr 21 18:28 peclapcu-5.1.22.txt
+-rw-r--r--  1 root root  3218 Apr 21 18:28 peclimagick-3.7.0.txt
+-rw-r--r--  1 root root 11359 Apr 21 18:29 peclmongodb-1.15.2.txt
+-rw-r--r--  1 root root  3014 Apr 21 18:29 peclxdebug-3.2.1.txt
+-rw-r--r--  1 root root  3204 Apr 21 18:28 php-8.0.28.txt
+
+php/logs:
+total 8
+drwxrwxr-x  2 root root 4096 Jan  1  1970 .
+drwxr-xr-x 12 root root 4096 Apr 21 18:39 ..
+
+php/php:
+total 12
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 12 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x  3 root root 4096 Apr 21 18:39 php
+
+php/php/php:
+total 12
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root 4096 Apr 21 18:39 ..
+drwxr-xr-x 2 root root 4096 Apr 21 18:39 fpm
+
+php/php/php/fpm:
+total 28
+drwxr-xr-x 2 root root  4096 Apr 21 18:39 .
+drwxr-xr-x 3 root root  4096 Apr 21 18:39 ..
+-rw-r--r-- 1 root root 19748 Apr 21 18:28 status.html
+
+php/sbin:
+total 20528
+drwxr-xr-x  2 root root     4096 Apr 21 18:39 .
+drwxr-xr-x 12 root root     4096 Apr 21 18:39 ..
+-rwxr-xr-x  1 root root 21010456 Apr 21 18:29 php-fpm
+
+php/tmp:
+total 8
+drwxrwxr-x  2 root root 4096 Jan  1  1970 .
+drwxr-xr-x 12 root root 4096 Apr 21 18:39 ..
+
+php/var:
+total 16
+drwxr-xr-x  4 root   root   4096 Apr 21 18:39 .
+drwxr-xr-x 12 root   root   4096 Apr 21 18:39 ..
+drwxr-xr-x  2 root   root   4096 Jan  1  1970 log
+drwxrwxr-x  3 daemon daemon 4096 May  8 15:02 run
+
+php/var/log:
+total 8
+drwxr-xr-x 2 root root 4096 Jan  1  1970 .
+drwxr-xr-x 4 root root 4096 Apr 21 18:39 ..
+
+php/var/run:
+total 12
+drwxrwxr-x 3 daemon daemon 4096 May  8 15:02 .
+drwxr-xr-x 4 root   root   4096 Apr 21 18:39 ..
+drwxrwxr-x 2 daemon daemon 4096 May  8 15:02 session
+
+php/var/run/session:
+total 8
+drwxrwxr-x 2 daemon daemon 4096 May  8 15:02 .
+drwxrwxr-x 3 daemon daemon 4096 May  8 15:02 ..
